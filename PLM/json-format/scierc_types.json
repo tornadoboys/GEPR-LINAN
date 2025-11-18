@@ -1,0 +1,306 @@
+{
+  "entities": {
+    "乡镇": {
+      "short": "乡镇",
+      "verbose": "乡镇"
+    },
+    "交通设施": {
+      "short": "交通设施",
+      "verbose": "交通设施"
+    },
+    "军事设施": {
+      "short": "军事设施",
+      "verbose": "军事设施"
+    },
+    "古迹": {
+      "short": "古迹",
+      "verbose": "古迹"
+    },
+    "园林": {
+      "short": "园林",
+      "verbose": "园林"
+    },
+    "城市内部区划": {
+      "short": "城市内部区划",
+      "verbose": "城市内部区划"
+    },
+    "学校": {
+      "short": "学校",
+      "verbose": "学校"
+    },
+    "官署": {
+      "short": "官署",
+      "verbose": "官署"
+    },
+    "宫殿": {
+      "short": "宫殿",
+      "verbose": "宫殿"
+    },
+    "寺院": {
+      "short": "寺院",
+      "verbose": "寺院"
+    },
+    "山脉": {
+      "short": "山脉",
+      "verbose": "山脉"
+    },
+    "市民生活": {
+      "short": "市民生活",
+      "verbose": "市民生活"
+    },
+    "府邸宅邸": {
+      "short": "府邸宅邸",
+      "verbose": "府邸宅邸"
+    },
+    "暂殡处所": {
+      "short": "暂殡处所",
+      "verbose": "暂殡处所"
+    },
+    "桥梁": {
+      "short": "桥梁",
+      "verbose": "桥梁"
+    },
+    "民居": {
+      "short": "民居",
+      "verbose": "民居"
+    },
+    "水利设施": {
+      "short": "水利设施",
+      "verbose": "水利设施"
+    },
+    "水系": {
+      "short": "水系",
+      "verbose": "水系"
+    },
+    "社会福利设施": {
+      "short": "社会福利设施",
+      "verbose": "社会福利设施"
+    },
+    "祭祀场所": {
+      "short": "祭祀场所",
+      "verbose": "祭祀场所"
+    },
+    "经济活动设施": {
+      "short": "经济活动设施",
+      "verbose": "经济活动设施"
+    },
+    "行政区划": {
+      "short": "行政区划",
+      "verbose": "行政区划"
+    },
+    "街道": {
+      "short": "街道",
+      "verbose": "街道"
+    },
+    "道观": {
+      "short": "道观",
+      "verbose": "道观"
+    }
+  },
+  "relations": {
+    "交汇": {
+      "short": "交汇",
+      "verbose": "交汇",
+      "symmetric": true,
+      "transitive": false
+    },
+    "交界": {
+      "short": "交界",
+      "verbose": "交界",
+      "symmetric": true,
+      "transitive": false
+    },
+    "位于": {
+      "short": "位于",
+      "verbose": "位于",
+      "symmetric": false,
+      "transitive": false
+    },
+    "别名": {
+      "short": "别名",
+      "verbose": "别名",
+      "symmetric": false,
+      "transitive": false
+    },
+    "包含": {
+      "short": "包含",
+      "verbose": "包含",
+      "symmetric": false,
+      "transitive": false
+    },
+    "改建": {
+      "short": "改建",
+      "verbose": "改建",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（上）": {
+      "short": "方位关系（上）",
+      "verbose": "方位关系（上）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（下）": {
+      "short": "方位关系（下）",
+      "verbose": "方位关系（下）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（东北）": {
+      "short": "方位关系（东北）",
+      "verbose": "方位关系（东北）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（东南）": {
+      "short": "方位关系（东南）",
+      "verbose": "方位关系（东南）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（东）": {
+      "short": "方位关系（东）",
+      "verbose": "方位关系（东）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（侧）": {
+      "short": "方位关系（侧）",
+      "verbose": "方位关系（侧）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（内）": {
+      "short": "方位关系（内）",
+      "verbose": "方位关系（内）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（前）": {
+      "short": "方位关系（前）",
+      "verbose": "方位关系（前）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（北）": {
+      "short": "方位关系（北）",
+      "verbose": "方位关系（北）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（南）": {
+      "short": "方位关系（南）",
+      "verbose": "方位关系（南）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（右）": {
+      "short": "方位关系（右）",
+      "verbose": "方位关系（右）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（后）": {
+      "short": "方位关系（后）",
+      "verbose": "方位关系（后）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（外）": {
+      "short": "方位关系（外）",
+      "verbose": "方位关系（外）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（左）": {
+      "short": "方位关系（左）",
+      "verbose": "方位关系（左）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（相对）": {
+      "short": "方位关系（相对）",
+      "verbose": "方位关系（相对）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（西北）": {
+      "short": "方位关系（西北）",
+      "verbose": "方位关系（西北）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（西南）": {
+      "short": "方位关系（西南）",
+      "verbose": "方位关系（西南）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "方位关系（西）": {
+      "short": "方位关系（西）",
+      "verbose": "方位关系（西）",
+      "symmetric": false,
+      "transitive": false
+    },
+    "旧名": {
+      "short": "旧名",
+      "verbose": "旧名",
+      "symmetric": false,
+      "transitive": false
+    },
+    "旧址位于": {
+      "short": "旧址位于",
+      "verbose": "旧址位于",
+      "symmetric": false,
+      "transitive": false
+    },
+    "更名": {
+      "short": "更名",
+      "verbose": "更名",
+      "symmetric": false,
+      "transitive": false
+    },
+    "相邻": {
+      "short": "相邻",
+      "verbose": "相邻",
+      "symmetric": true,
+      "transitive": false
+    },
+    "终点": {
+      "short": "终点",
+      "verbose": "终点",
+      "symmetric": false,
+      "transitive": false
+    },
+    "起点": {
+      "short": "起点",
+      "verbose": "起点",
+      "symmetric": false,
+      "transitive": false
+    },
+    "距离": {
+      "short": "距离",
+      "verbose": "距离",
+      "symmetric": false,
+      "transitive": false
+    },
+    "迁移": {
+      "short": "迁移",
+      "verbose": "迁移",
+      "symmetric": false,
+      "transitive": false
+    },
+    "通往": {
+      "short": "通往",
+      "verbose": "通往",
+      "symmetric": false,
+      "transitive": false
+    },
+    "隶属": {
+      "short": "隶属",
+      "verbose": "隶属",
+      "symmetric": false,
+      "transitive": false
+    }
+  }
+}
