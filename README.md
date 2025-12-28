@@ -1,88 +1,119 @@
 # GEPR-LINAN
-Geographic information extraction dataset of Lin'an in the Soutern Song Dynasty
-# Historical Geography Entity-Relationship Dataset README
 
-## 1. Dataset Overview
-This dataset focuses on the field of historical geography, integrating entities and their associated relationships related to geospatial and humanistic scenarios. It provides structured, reusable data resources suitable for historical geography research, digital humanities analysis, historical scene reconstruction, and other use cases.
+**Geographic Entity and Place-Relationship Dataset of Lin'an in the Southern Song Dynasty**
 
-## 2. Core Statistical Information
-- Total number of different entity types: 24
-- Total number of different relationship types: 34
-- Total number of entities across all files: 25,397
-- Total number of relationships across all files: 17,881
+A structured dataset for historical geography research, focusing on Lin'an (临安, present-day Hangzhou), the capital of the Southern Song Dynasty (1127–1279 CE). It provides entity and relationship annotations extracted from classical Chinese historical texts, suitable for digital humanities analysis, historical GIS, and knowledge graph construction.
 
-## 3. Entity Types and Their Counts
-| Entity Type               | Count  |
-|---------------------------|--------|
-| 宫殿                      | 1,044  |
-| 山脉                      | 2,563  |
-| 行政区划                  | 959    |
-| 城市内部区划              | 1,956  |
-| 官署                      | 1,644  |
-| 桥梁                      | 2,502  |
-| 府邸宅邸                  | 378    |
-| 祭祀场所                  | 794    |
-| 道观                      | 367    |
-| 暂殡处所                  | 98     |
-| 寺院                      | 2,480  |
-| 园林                      | 2,678  |
-| 街道                      | 1,566  |
-| 学校                      | 445    |
-| 古迹                      | 740    |
-| 乡镇                      | 938    |
-| 经济活动设施              | 1,253  |
-| 水系                      | 1,413  |
-| 交通设施                  | 80     |
-| 水利设施                  | 655    |
-| 军事设施                  | 541    |
-| 市民生活                  | 240    |
-| 民居                      | 31     |
-| 社会福利设施              | 32     |
+---
 
-## 4. Relationship Types and Their Counts
-| Relationship Type         | Count  |
-|---------------------------|--------|
-| 方位关系（东）            | 563    |
-| 位于                      | 2,815  |
-| 方位关系（南）            | 546    |
-| 方位关系（北）            | 575    |
-| 方位关系（外）            | 805    |
-| 方位关系（左）            | 79     |
-| 方位关系（西）            | 641    |
-| 距离                      | 435    |
-| 方位关系（侧）            | 216    |
-| 方位关系（东北）          | 68     |
-| 方位关系（内）            | 410    |
-| 隶属                      | 2,843  |
-| 包含                      | 2,842  |
-| 方位关系（右）            | 83     |
-| 迁移                      | 91     |
-| 方位关系（后）            | 357    |
-| 方位关系（下）            | 201    |
-| 旧址位于                  | 225    |
-| 改建                      | 179    |
-| 方位关系（相对）          | 180    |
-| 相邻                      | 230    |
-| 终点                      | 139    |
-| 旧名                      | 691    |
-| 别名                      | 879    |
-| 更名                      | 152    |
-| 方位关系（东南）          | 48     |
-| 方位关系（前）            | 374    |
-| 通往                      | 652    |
-| 方位关系（上）            | 125    |
-| 方位关系（西南）          | 74     |
-| 方位关系（西北）          | 47     |
-| 交界                      | 81     |
-| 起点                      | 123    |
-| 交汇                      | 112    |
+## Dataset Statistics
 
-## 5. Dataset Usage
-1. Supports academic research such as historical geographic spatial pattern analysis and humanistic entity association network mining.
-2. Adapts to application development needs like digital historical map construction and historical scene visualization.
-3. Provides data support for geographic information extraction and text association analysis in historical documents.
+| Metric | Value |
+|--------|-------|
+| Entity Types | 24 |
+| Relationship Types | 34 |
+| Total Entities | 25,397 |
+| Total Relationships | 17,881 |
 
-## 6. Usage Notes
-- The dataset is structured and stored by entity type and relationship type, and can be directly used for data analysis or model training.
-- All entities and relationships have undergone manual verification and standardized annotation to ensure data accuracy.
-- For expanding data fields or supplementing associated information, secondary development can be carried out with reference to the field naming conventions.
+---
+
+## Entity Types
+
+| Chinese | English | Count |
+|---------|---------|-------|
+| 宫殿 | Palace | 1,044 |
+| 山脉 | Mountain | 2,563 |
+| 行政区划 | Administrative Division | 959 |
+| 城市内部区划 | Urban District | 1,956 |
+| 官署 | Government Office | 1,644 |
+| 桥梁 | Bridge | 2,502 |
+| 府邸宅邸 | Mansion / Residence | 378 |
+| 祭祀场所 | Ritual Site | 794 |
+| 道观 | Taoist Temple | 367 |
+| 暂殡处所 | Temporary Burial Site | 98 |
+| 寺院 | Buddhist Temple | 2,480 |
+| 园林 | Garden / Park | 2,678 |
+| 街道 | Street | 1,566 |
+| 学校 | School / Academy | 445 |
+| 古迹 | Historic Site | 740 |
+| 乡镇 | Township | 938 |
+| 经济活动设施 | Commercial Facility | 1,253 |
+| 水系 | Water System | 1,413 |
+| 交通设施 | Transportation Facility | 80 |
+| 水利设施 | Hydraulic Facility | 655 |
+| 军事设施 | Military Facility | 541 |
+| 市民生活 | Civic Life Facility | 240 |
+| 民居 | Civilian Residence | 31 |
+| 社会福利设施 | Social Welfare Facility | 32 |
+
+---
+
+## Relationship Types
+
+| Chinese | English | Count |
+|---------|---------|-------|
+| 位于 | Located at | 2,815 |
+| 隶属 | Subordinate to | 2,843 |
+| 包含 | Contains | 2,842 |
+| 相邻 | Adjacent to | 230 |
+| 交界 | Borders | 81 |
+| 距离 | Distance | 435 |
+| 通往 | Leads to | 652 |
+| 起点 | Starting Point | 123 |
+| 终点 | Ending Point | 139 |
+| 交汇 | Confluence | 112 |
+| 迁移 | Relocated | 91 |
+| 改建 | Reconstructed | 179 |
+| 旧址位于 | Former Site Located at | 225 |
+| 旧名 | Former Name | 691 |
+| 别名 | Alias | 879 |
+| 更名 | Renamed | 152 |
+| 方位关系（东） | East of | 563 |
+| 方位关系（西） | West of | 641 |
+| 方位关系（南） | South of | 546 |
+| 方位关系（北） | North of | 575 |
+| 方位关系（东北） | Northeast of | 68 |
+| 方位关系（东南） | Southeast of | 48 |
+| 方位关系（西北） | Northwest of | 47 |
+| 方位关系（西南） | Southwest of | 74 |
+| 方位关系（前） | In Front of | 374 |
+| 方位关系（后） | Behind | 357 |
+| 方位关系（左） | Left of | 79 |
+| 方位关系（右） | Right of | 83 |
+| 方位关系（上） | Above | 125 |
+| 方位关系（下） | Below | 201 |
+| 方位关系（内） | Inside | 410 |
+| 方位关系（外） | Outside | 805 |
+| 方位关系（侧） | Beside | 216 |
+| 方位关系（相对） | Opposite | 180 |
+
+---
+
+## Usage
+
+- **Historical Research**: Spatial pattern analysis and entity association network mining in historical geography
+- **Application Development**: Digital historical map construction and historical scene visualization
+- **NLP Tasks**: Geographic information extraction and relation extraction from classical Chinese texts
+
+## Notes
+
+- Data is organized by entity type and relationship type, ready for analysis or model training
+- All entities and relationships have been manually verified with standardized annotations
+- For data extension, please follow the existing field naming conventions
+
+---
+
+## License
+
+This dataset is released under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+## Citation
+
+```bibtex
+@dataset{gepr_linan,
+  title  = {GEPR-LINAN: Geographic Entity and Place-Relationship Dataset of Lin'an in the Southern Song Dynasty},
+  author = {[Author]},
+  year   = {2024},
+  url    = {https://github.com/[username]/GEPR-LINAN}
+}
+```
