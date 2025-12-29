@@ -1,12 +1,20 @@
-# GEPR-LINAN
+<div align="center">
+
+# 🏯 GEPR-LINAN
 
 **Geographic Entity and Place-Relationship Dataset of Lin'an in the Southern Song Dynasty**
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Entities](https://img.shields.io/badge/Entities-25,397-orange)]()
+[![Relations](https://img.shields.io/badge/Relations-17,881-purple)]()
+
+</div>
 
 A structured dataset for historical geography research, focusing on Lin'an (临安, present-day Hangzhou), the capital of the Southern Song Dynasty (1127–1279 CE). It provides entity and relationship annotations extracted from classical Chinese historical texts, suitable for digital humanities analysis, historical GIS, and knowledge graph construction.
 
 ---
 
-## Dataset Statistics
+## 📊 Dataset Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -17,7 +25,7 @@ A structured dataset for historical geography research, focusing on Lin'an (临�
 
 ---
 
-## Entity Types
+## 🏷️ Entity Types
 
 | Chinese | English | Count |
 |---------|---------|-------|
@@ -48,7 +56,7 @@ A structured dataset for historical geography research, focusing on Lin'an (临�
 
 ---
 
-## Relationship Types
+## 🔗 Relationship Types
 
 | Chinese | English | Count |
 |---------|---------|-------|
@@ -89,13 +97,13 @@ A structured dataset for historical geography research, focusing on Lin'an (临�
 
 ---
 
-## Usage
+## 💡 Usage
 
 - **Historical Research**: Spatial pattern analysis and entity association network mining in historical geography
 - **Application Development**: Digital historical map construction and historical scene visualization
 - **NLP Tasks**: Geographic information extraction and relation extraction from classical Chinese texts
 
-## Notes
+## 📝 Notes
 
 - Data is organized by entity type and relationship type, ready for analysis or model training
 - All entities and relationships have been manually verified with standardized annotations
@@ -103,17 +111,9 @@ A structured dataset for historical geography research, focusing on Lin'an (临�
 
 ---
 
-## License
+## 📜 License
 
 This dataset is released under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-## Citation
-
-```bibtex
-@dataset{gepr_linan,
-  title  = {GEPR-LINAN: Geographic Entity and Place-Relationship Dataset of Lin'an in the Southern Song Dynasty},
-  author = {[Author]},
-  year   = {2024},
-  url    = {https://github.com/[username]/GEPR-LINAN}
-}
-```
+## 📖 Citation
+...
