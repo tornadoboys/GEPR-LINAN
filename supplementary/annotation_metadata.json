@@ -1,0 +1,170 @@
+{
+  "_note": "All statistics in this file are derived directly from the published paper (GEPR-LINAN, Scientific Data submission) and the actual annotation records.",
+  "corpus_overview": {
+    "total_documents": 18,
+    "total_characters_approx": "~1,000,000",
+    "text_genres": [
+      "Official histories (正史)",
+      "Local gazetteers (方志)",
+      "Scholarly notes (笔记)",
+      "Travel accounts (游记)",
+      "Antiquarian studies (考)"
+    ],
+    "linguistic_characteristics": {
+      "avg_sentence_length_chars": "15–20 (basic clause units in Classical Chinese)",
+      "entity_density": "1–2 geographical entities per ~30 characters",
+      "spatial_expression_richness": "Rich variety of azimuth words (方位词); directional expressions are particularly diverse and explicit"
+    },
+    "preprocessing_steps": [
+      "OCR scanning of authoritative printed editions",
+      "Script standardisation: unification of traditional, simplified, and variant characters (異體字) into normalised forms",
+      "OCR error correction using contextual cues and model-assisted methods (incorrect sentence segmentation, misspellings)",
+      "Paragraph segmentation for vertically formatted documents lacking clear structural boundaries, ensuring each unit has a clear core referent to facilitate coreference resolution"
+    ]
+  },
+  "annotation_pipeline": {
+    "paradigm": "Semi-automatic: LLM-assisted candidate generation + mandatory expert human verification",
+    "rationale": "Human-in-the-loop annotation was adopted to balance efficiency with consistency and accuracy. This approach reduces manual burden at scale while maintaining high annotation quality through obligatory expert oversight.",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Automatic Candidate Generation",
+        "description": "After preprocessing, GPT-5 was used to generate initial entity and relation candidates for every sentence. All model outputs were treated exclusively as candidate suggestions subject to mandatory human review; no LLM output was accepted without verification.",
+        "llm_model": "GPT-5",
+        "llm_provider": "OpenAI",
+        "prompt_components": [
+          "Task description: explicit statement of NER + RE objectives and operating instructions",
+          "Output specification: strict JSON format constraint to ensure parseable structure",
+          "Type constraints: complete enumeration of all 24 entity types and 34 relation types with per-type definitions",
+          "Few-shot reference examples: several annotated input-output pairs covering representative entity and relation patterns"
+        ],
+        "output_format": "JSON — {sentence, ner: [[entity_text, entity_type], ...], relations: [[head_text, head_type, tail_text, tail_type, relation_type], ...]}"
+      },
+      {
+        "stage": 2,
+        "name": "Manual Verification and Revision",
+        "description": "Annotators reviewed and corrected LLM candidates via an annotation platform. The review workflow was stratified by LLM confidence.",
+        "annotator_count": 2,
+        "annotator_ids": [
+          "Annotator A",
+          "Annotator B"
+        ],
+        "annotator_backgrounds": [
+          "Classical Chinese philology (CP)",
+          "Computational linguistics (CL)"
+        ],
+        "expert_supervision": "Domain experts in historical geography provided ongoing guidance and supervision to ensure quality and consistency throughout the annotation process.",
+        "human_correction_tasks": [
+          "Correcting entity span boundaries (start/end character indices)",
+          "Unifying entity surface forms and orthographic variants (別字, 異體字)",
+          "Confirming or reassigning relation types",
+          "Adding missed entities and relations not identified by the LLM",
+          "Removing false-positive candidates introduced by the LLM",
+          "Flagging and recording uncertain or genuinely ambiguous cases"
+        ],
+        "review_workflow": {
+          "uncertain_or_ambiguous_sentences": "Sentences where annotators were uncertain about entity boundaries, type assignment, or relation direction were flagged and independently annotated by both annotators; disagreements were arbitrated by a designated senior expert reviewer (third party).",
+          "other_sentences": "All other sentences were reviewed and corrected by a single annotator."
+        }
+      },
+      {
+        "stage": 3,
+        "name": "Iteration and Quality Control",
+        "description": "Common error patterns collected during Stage 2 were used to update (a) the LLM prompt template and (b) the entity alias dictionary, improving the quality of automatic candidates for subsequent batches. This iterative human-feedback loop has been validated in prior corpus construction studies.",
+        "outputs": [
+          "Revised prompt template (updated iteratively across annotation batches)",
+          "Alias dictionary for surface form normalisation",
+          "Annotation error log for guideline refinement"
+        ]
+      },
+      {
+        "stage": 4,
+        "name": "Consistency Measurement (IAA Experiment)",
+        "description": "A formal inter-annotator agreement study was conducted on a held-out subset to quantify annotation reliability. See inter_annotator_agreement section for full details.",
+        "reference_section": "inter_annotator_agreement"
+      }
+    ]
+  },
+  "inter_annotator_agreement": {
+    "purpose": "To assess the reliability of the final annotations for geographical entities and spatial relations in Southern Song classical texts.",
+    "sampling_strategy": "Stratified random sampling over all annotated documents, ensuring coverage of different source texts and spatial description types.",
+    "sample_size": {
+      "sentences": 5000,
+      "proportion_of_corpus": "approximately 12%"
+    },
+    "annotators": {
+      "count": 2,
+      "identifiers": [
+        "Annotator A",
+        "Annotator B"
+      ],
+      "backgrounds": [
+        "Classical Chinese",
+        "Historical geography"
+      ],
+      "blinding": "Both annotators worked independently. No pre-generated LLM candidates, pseudo-labels, or the other annotator's decisions were shown during the IAA experiment.",
+      "annotation_scope": [
+        "All geo-entities with span boundaries and fine-grained types (24 categories)",
+        "All intra-sentence spatial relations between geo-entity pairs (34 types)"
+      ],
+      "guidelines": "Both annotators followed the identical final version of the annotation guidelines, covering entity type definitions, boundary delineation criteria, and relation labelling rules."
+    },
+    "evaluation_metric": {
+      "metric": "Precision, Recall, F1 score",
+      "matching_criterion": "Strict: an entity match requires identical span boundaries AND identical entity type; a relation match requires identical head span, tail span, AND relation type.",
+      "rationale_for_f1_over_kappa": "Span-level F1 directly measures entity boundary and type matching accuracy without being inflated by the predominant non-entity tokens, making it the standard metric for NER IAA in domain-specific corpus construction."
+    },
+    "results": {
+      "entity_level": {
+        "precision_A_to_B": 0.8526,
+        "recall_A_to_B": 0.8752,
+        "f1": 0.8638,
+        "interpretation": "Strong consistency in both boundary delineation and fine-grained type classification."
+      },
+      "relation_level": {
+        "precision_A_to_B": 0.7949,
+        "recall_A_to_B": 0.7622,
+        "f1": 0.7782,
+        "interpretation": "Lower agreement than entity-level reflects the higher cognitive complexity of relation annotation: correct identification of both head and tail entities plus accurate judgment of relation type from ambiguous Classical Chinese spatial expressions.",
+        "threshold_note": "Both metrics exceed the commonly accepted threshold for high-quality corpus annotation (F1 ≥ 0.75)."
+      }
+    },
+    "limitation_anchoring_bias": {
+      "description": "The IAA experiment was conducted under blind conditions (no LLM pre-annotations shown). In the production annotation pipeline (Stage 2), however, annotators corrected pre-existing LLM candidates rather than generating annotations from scratch. This difference in task framing introduces a potential anchoring bias: annotators may be systematically influenced by LLM proposals even when those proposals are incorrect — a known limitation in human-in-the-loop annotation workflows.",
+      "acknowledgment": "This limitation is explicitly acknowledged. The IAA scores reported above therefore represent an upper bound on annotation reliability under ideal blind conditions; actual inter-annotator consistency in the production phase may differ. Investigating anchoring bias in LLM-assisted historical text annotation is an important direction for future work.",
+      "mitigation_measures_taken": [
+        "Sentences flagged as uncertain or ambiguous required independent annotation by both annotators before adjudication, partially reducing anchoring risk for difficult cases.",
+        "Expert domain reviewers provided independent quality oversight throughout Stage 2.",
+        "Iterative guideline updates in Stage 3 targeted systematic errors, including LLM-induced misclassifications."
+      ]
+    }
+  },
+  "annotation_guidelines": {
+    "availability": "Full annotation guidelines (in Chinese) are included in the dataset repository as supplementary/annotation_guidelines_zh.pdf",
+    "language": "Chinese (Classical Chinese terms with Modern Chinese explanations)",
+    "key_principles": [
+      "Annotate entities according to their referent and primary function in the Southern Song historical context, not modern usage or post-Song reinterpretation.",
+      "When an entity is ambiguous between types (e.g., a garden compound that also served palace functions), assign the type most consistent with the sentence's primary description.",
+      "Directional relations are annotated from the perspective of the referenced or moving entity: 'Entity A is [direction] of Entity B' means A's position is described relative to B as the landmark.",
+      "Inverse relation pairs (包含/隶属, 起点/终点) must be annotated symmetrically when both entities co-occur within the same sentence.",
+      "Relations are sentence-scoped: only annotate relations whose both head and tail entities appear in the same sentence.",
+      "Entity surface forms should reflect the exact character sequence in the original text; do not normalise to standard forms in the annotation span itself.",
+      "Uncertain or genuinely ambiguous annotations must be flagged in the annotation log and reviewed by the senior expert."
+    ]
+  },
+  "dataset_split_methodology": {
+    "strategy": "Document-level split (independent texts as the split unit)",
+    "rationale": "Splitting at the document level ensures no information leakage between splits: sentences from the same source volume are confined to a single split partition. This prevents models from exploiting stylistic or topical correlations between train and evaluation data.",
+    "random_seed": 42,
+    "ind_split_ratios": {
+      "train": "80%",
+      "dev": "10%",
+      "test": "10%"
+    },
+    "ood_dataset": {
+      "source": "Yuedi Jisheng 《舆地纪胜》 Volumes 1–2",
+      "rationale": "Completely independent from all 18 IND source texts. Compiled by a different author (Wang Xiangzhi 王象之) with a distinct empire-wide encyclopaedic methodology. Higher proportion of long and complex sentences, more complicated sentence logic, and fewer covered relation types than the IND corpus — specifically designed to test model generalisation to unseen text styles."
+    },
+    "balancing_principle": "During division, adherence to the principle of balancing entities and relations was maintained, ensuring that different subsets are as consistent as possible in their statistical distribution and avoiding unstable evaluation results due to partition bias."
+  }
+}

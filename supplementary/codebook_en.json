@@ -1,0 +1,425 @@
+{
+  "_note": "Authoritative English codebook for GEPR-LINAN. Each entry carries a single canonical 'english_label' — this is the only permitted English rendering of the Chinese label in the paper, dataset documentation, README, and all figures. Source of truth for Chinese labels and descriptions: definition.json.",
+
+  "ENTITY_CATEGORIES": [
+    {
+      "label": "官署",
+      "english_label": "Government Office",
+      "description_zh": "古代政府办公机构。",
+      "description_en": "Civil and military bureaucratic agencies, ministries, courts, and administrative departments."
+    },
+    {
+      "label": "行政区划",
+      "english_label": "Administrative Division",
+      "description_zh": "国家划分的管理区域，用于地方治理。",
+      "description_en": "Prefectures, counties, circuits, and other formally delimited territorial units of government."
+    },
+    {
+      "label": "寺院",
+      "english_label": "Buddhist Temple",
+      "description_zh": "佛教宗教活动场所，供僧侣修行与信众朝拜。",
+      "description_en": "Buddhist monasteries, nunneries, and chapels."
+    },
+    {
+      "label": "祭祀场所",
+      "english_label": "Ritual Site",
+      "description_zh": "用于祭祀神灵或祖先的场所，含国家祭祀与民间祭祀。",
+      "description_en": "Altars, state shrines, ancestral temples, and venues for official or popular sacrificial rites."
+    },
+    {
+      "label": "交通设施",
+      "english_label": "Transportation Facility",
+      "description_zh": "提供交通与驿传服务的设施。",
+      "description_en": "Ferry crossings, wharfs, post stations, and other non-bridge transportation infrastructure."
+    },
+    {
+      "label": "学校",
+      "english_label": "Educational Institution",
+      "description_zh": "教育与考试机构及其内部建筑。",
+      "description_en": "Imperial academies, prefectural schools, county schools, private academies, and charity schools."
+    },
+    {
+      "label": "宫殿",
+      "english_label": "Palace",
+      "description_zh": "皇室居住与理政场所。",
+      "description_en": "Imperial palaces, throne halls, and royal residential buildings within the palace enclosure."
+    },
+    {
+      "label": "园林",
+      "english_label": "Garden",
+      "description_zh": "供游览休憩的景观区域与建筑群。",
+      "description_en": "Imperial pleasure gardens, private landscape gardens, and public scenic parks."
+    },
+    {
+      "label": "道观",
+      "english_label": "Taoist Temple",
+      "description_zh": "道教宗教活动场所，用于奉祀神祇与仪式。",
+      "description_en": "Taoist religious establishments, abbeys, and meditation compounds."
+    },
+    {
+      "label": "经济活动设施",
+      "english_label": "Commercial Facility",
+      "description_zh": "进行经济活动与仓储交易的场所。",
+      "description_en": "Markets, warehouses, workshops, kilns, tax collection offices, and trade-related facilities."
+    },
+    {
+      "label": "府邸宅邸",
+      "english_label": "Official Residence",
+      "description_zh": "官员或富人的私人住宅，体现地位与居住文化。",
+      "description_en": "Private mansions, noble compounds, and high-official dwellings (non-imperial)."
+    },
+    {
+      "label": "山脉",
+      "english_label": "Mountain",
+      "description_zh": "自然地理中的山体与相关地貌单元。",
+      "description_en": "Named mountains, hills, ridges, peaks, and other elevated landforms."
+    },
+    {
+      "label": "城市内部区划",
+      "english_label": "Urban Ward",
+      "description_zh": "城市内部的行政或功能分区。",
+      "description_en": "Wards, quarters, and named functional zones within the city walls, below the county level."
+    },
+    {
+      "label": "桥梁",
+      "english_label": "Bridge",
+      "description_zh": "跨越水域或障碍的建筑，连接交通要道。",
+      "description_en": "Named bridges spanning rivers, canals, and moats, including timber, stone, and pontoon types."
+    },
+    {
+      "label": "水系",
+      "english_label": "Water Body",
+      "description_zh": "自然或人工水体。",
+      "description_en": "Rivers, lakes, canals, ponds, streams, and other named natural or artificial water bodies."
+    },
+    {
+      "label": "军事设施",
+      "english_label": "Military Facility",
+      "description_zh": "用于军事目的的设施与编制相关实体。",
+      "description_en": "City walls, gates, passes, barracks, garrisons, naval stations, and fortifications."
+    },
+    {
+      "label": "古迹",
+      "english_label": "Historic Site",
+      "description_zh": "历史遗留建筑或遗址。",
+      "description_en": "Archaeological remains, abandoned structures, historic ruins, and heritage landmarks no longer in original use."
+    },
+    {
+      "label": "民居",
+      "english_label": "Civilian Dwelling",
+      "description_zh": "普通百姓的居住场所。",
+      "description_en": "Common residential buildings specifically documented in the sources by name or location."
+    },
+    {
+      "label": "街道",
+      "english_label": "Street",
+      "description_zh": "城市道路网络与相关街区名，构成城市骨架。",
+      "description_en": "Named streets, alleys, covered arcades, and imperial avenues within the city."
+    },
+    {
+      "label": "乡镇",
+      "english_label": "Township",
+      "description_zh": "基层行政区划或聚居点。",
+      "description_en": "Rural townships, market towns, and sub-county settlements outside the city walls."
+    },
+    {
+      "label": "暂殡处所",
+      "english_label": "Temporary Mortuary",
+      "description_zh": "王室贵族的暂时安葬之所，多设于寺院内。",
+      "description_en": "Provisional imperial coffin resting places, often housed within Buddhist monasteries."
+    },
+    {
+      "label": "水利设施",
+      "english_label": "Hydraulic Structure",
+      "description_zh": "水资源管理与利用工程，保障灌溉与防洪。",
+      "description_en": "Dams, sluice gates, embankments, weirs, and irrigation works for water management."
+    },
+    {
+      "label": "市民生活",
+      "english_label": "Civic Venue",
+      "description_zh": "市民日常商业与娱乐活动场所。",
+      "description_en": "Entertainment theatres, teahouses, wine houses, bathhouses, and communal public spaces."
+    },
+    {
+      "label": "社会福利设施",
+      "english_label": "Social Welfare Facility",
+      "description_zh": "提供社会救助与福利的场所，照顾弱势群体。",
+      "description_en": "Poorhouses, orphanages, charity granaries, public infirmaries, and relief institutions."
+    }
+  ],
+
+  "RELATION_CATEGORIES": [
+    {
+      "label": "位于",
+      "english_label": "located at",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1的地理位置在地理实体2。",
+      "description_en": "Entity A is spatially situated at or within Entity B (general location)."
+    },
+    {
+      "label": "旧址位于",
+      "english_label": "former site at",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示一个地理实体1的旧址位于地理实体2。",
+      "description_en": "The original location of Entity A was at the place of Entity B."
+    },
+    {
+      "label": "改建",
+      "english_label": "rebuilt from",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1被改建为地理实体2。",
+      "description_en": "Entity A was constructed by renovating or repurposing Entity B."
+    },
+    {
+      "label": "包含",
+      "english_label": "contains",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示一个地理实体1包含地理实体2，其中大的地名地理实体1，小的放在地理实体2。",
+      "description_en": "Entity A (larger) geographically encloses or incorporates Entity B (smaller) as a component."
+    },
+    {
+      "label": "隶属",
+      "english_label": "subordinate to",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1隶属于地理实体2。小的地名放在地理实体1，大的放在地理实体2。",
+      "description_en": "Entity A (smaller) administratively or institutionally belongs to Entity B (larger)."
+    },
+    {
+      "label": "别名",
+      "english_label": "also known as",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1的别名是地理实体2。",
+      "description_en": "Entity B is a concurrent colloquial, literary, or unofficial name for Entity A."
+    },
+    {
+      "label": "旧名",
+      "english_label": "formerly known as",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1的旧名是地理实体2。",
+      "description_en": "Entity A was previously called Entity B (B is the earlier name)."
+    },
+    {
+      "label": "更名",
+      "english_label": "renamed to",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1的名称更改为地理实体2。",
+      "description_en": "Entity A was officially renamed and thereafter called Entity B."
+    },
+    {
+      "label": "距离",
+      "english_label": "at distance from",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1和地理实体2之间有距离关系，即文中明确描述距离多少。",
+      "description_en": "A measured or stated distance separates Entity A from Entity B."
+    },
+    {
+      "label": "迁移",
+      "english_label": "relocated to",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示一个地理实体1迁移到地理实体2。",
+      "description_en": "Entity A was physically moved from its original location to the site of Entity B."
+    },
+    {
+      "label": "相邻",
+      "english_label": "adjacent to",
+      "direction": "A ↔ B",
+      "symmetric": true,
+      "description_zh": "表示两个地理实体相邻。",
+      "description_en": "Entity A and Entity B share a boundary or are immediately next to each other."
+    },
+    {
+      "label": "交界",
+      "english_label": "borders",
+      "direction": "A ↔ B",
+      "symmetric": true,
+      "description_zh": "表示两个地理实体的边界相交。",
+      "description_en": "Two administrative or geographic regions share a demarcated boundary line."
+    },
+    {
+      "label": "起点",
+      "english_label": "starts at",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "示地理实体1的起点是地理实体2。",
+      "description_en": "Entity A (a route, river, or linear structure) has its origin at Entity B."
+    },
+    {
+      "label": "终点",
+      "english_label": "ends at",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1的终点是地理实体2。",
+      "description_en": "Entity A (a route, river, or linear structure) has its terminus at Entity B."
+    },
+    {
+      "label": "交汇",
+      "english_label": "confluent with",
+      "direction": "A ↔ B",
+      "symmetric": true,
+      "description_zh": "表示地理实体1与地理实体2交汇在一起。",
+      "description_en": "Two waterways or roads meet or merge at a common point."
+    },
+    {
+      "label": "通往",
+      "english_label": "leads to",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1通往地理实体2。",
+      "description_en": "A road, waterway, or route runs from Entity A toward or terminating at Entity B."
+    },
+    {
+      "label": "方位关系（东）",
+      "english_label": "is east of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的东边。",
+      "description_en": "Entity A is located to the east of Entity B."
+    },
+    {
+      "label": "方位关系（南）",
+      "english_label": "is south of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的南边。",
+      "description_en": "Entity A is located to the south of Entity B."
+    },
+    {
+      "label": "方位关系（西）",
+      "english_label": "is west of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的西边。",
+      "description_en": "Entity A is located to the west of Entity B."
+    },
+    {
+      "label": "方位关系（北）",
+      "english_label": "is north of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的北边。",
+      "description_en": "Entity A is located to the north of Entity B."
+    },
+    {
+      "label": "方位关系（内）",
+      "english_label": "is inside",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的内部。",
+      "description_en": "Entity A (smaller) is situated inside the boundary or enclosure of Entity B (larger). Direction is opposite to 'contains'."
+    },
+    {
+      "label": "方位关系（外）",
+      "english_label": "is outside",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的外部。",
+      "description_en": "Entity A is situated outside the boundary or enclosure of Entity B."
+    },
+    {
+      "label": "方位关系（左）",
+      "english_label": "is left of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的左边。",
+      "description_en": "Entity A is positioned to the left of Entity B from a standard orientation."
+    },
+    {
+      "label": "方位关系（右）",
+      "english_label": "is right of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的右边。",
+      "description_en": "Entity A is positioned to the right of Entity B from a standard orientation."
+    },
+    {
+      "label": "方位关系（上）",
+      "english_label": "is above",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的上边。",
+      "description_en": "Entity A is above, upstream of, or at a higher elevation than Entity B."
+    },
+    {
+      "label": "方位关系（下）",
+      "english_label": "is below",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的下边。",
+      "description_en": "Entity A is below, downstream of, or at a lower elevation than Entity B."
+    },
+    {
+      "label": "方位关系（前）",
+      "english_label": "is in front of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的前边。",
+      "description_en": "Entity A is positioned before or to the south-facing side of Entity B."
+    },
+    {
+      "label": "方位关系（后）",
+      "english_label": "is behind",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的后边。",
+      "description_en": "Entity A is positioned to the rear or north-facing side of Entity B."
+    },
+    {
+      "label": "方位关系（侧）",
+      "english_label": "is beside",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的侧边。",
+      "description_en": "Entity A is at the side of Entity B without specifying left or right."
+    },
+    {
+      "label": "方位关系（东北）",
+      "english_label": "is northeast of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的东北边。",
+      "description_en": "Entity A is located to the northeast of Entity B."
+    },
+    {
+      "label": "方位关系（东南）",
+      "english_label": "is southeast of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的东南边。",
+      "description_en": "Entity A is located to the southeast of Entity B."
+    },
+    {
+      "label": "方位关系（西南）",
+      "english_label": "is southwest of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的西南边。",
+      "description_en": "Entity A is located to the southwest of Entity B."
+    },
+    {
+      "label": "方位关系（西北）",
+      "english_label": "is northwest of",
+      "direction": "A → B",
+      "symmetric": false,
+      "description_zh": "表示地理实体1在地理实体2的西北边。",
+      "description_en": "Entity A is located to the northwest of Entity B."
+    },
+    {
+      "label": "方位关系（相对）",
+      "english_label": "is opposite",
+      "direction": "A ↔ B",
+      "symmetric": true,
+      "description_zh": "表示两个地理实体相对，即文中明确提到相对。",
+      "description_en": "Entity A directly faces or is across a space from Entity B."
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "_comment": "Source text metadata for GEPR-LINAN dataset. Corrected 2025 to match actual editions and digitisation sources used (Shidian Guji, shidianguji.com). All texts are in the public domain; see dataset README for copyright statement.",
+  "ind_corpus": [
+    {
+      "title_zh": "乾道临安志",
+      "title_full_zh": "《乾道临安志》",
+      "volumes_included": [
+        "卷1",
+        "卷2"
+      ],
+      "doc_ids": [
+        "DOC_0001",
+        "DOC_0002"
+      ],
+      "author": "周淙 (Zhou Chong)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (12th century CE)",
+      "genre": "Local Gazetteer (方志)",
+      "description_en": "The earliest surviving Lin'an gazetteer, compiled by Zhou Chong during the Qiandao reign period. Covers the administrative geography, official buildings, and urban layout of Lin'an.",
+      "source_edition": "Qing Dynasty Siku Quanshu (四库全书) edition",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK0975/chapter/1jurl7n81svn6?page_from=searching_page&version=3",
+      "copyright_status": "Public domain (Southern Song Dynasty work, >700 years ago)"
+    },
+    {
+      "title_zh": "二老堂杂志",
+      "title_full_zh": "《二老堂杂志》",
+      "volumes_included": [
+        "卷4"
+      ],
+      "doc_ids": [
+        "DOC_0003"
+      ],
+      "author": "周必大 (Zhou Bida)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (12th–13th century CE)",
+      "genre": "Miscellaneous Notes (笔记)",
+      "description_en": "Miscellaneous notes by the scholar-official Zhou Bida, containing observations on Lin'an geography, institutions, and place names.",
+      "source_edition": "Qing manuscript copy (清抄本)",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/NGJ89241199901492571723/chapter/start?page_from=searching_page&version=1",
+      "copyright_status": "Public domain (Southern Song Dynasty work, >700 years ago)"
+    },
+    {
+      "title_zh": "六和塔记",
+      "title_full_zh": "《六和塔记》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0004"
+      ],
+      "author": "曹勋 (Cao Xun)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Song Dynasty (12th century CE)",
+      "genre": "Monograph Record (记)",
+      "description_en": "A monographic record of Liuhe Pagoda (Six Harmonies Tower) on the Qiantang River. Preserved in the collected works Songyin Ji (松隐集) by Cao Xun; used here from the Siku Quanshu edition, pp. 5–9.",
+      "source_edition": "Collected in 《松隐集》by Cao Xun; Qing Dynasty Siku Quanshu (四库全书) edition, pp. 5–9",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK2447/chapter/1lltes2cfol56?page_from=searching_page&version=8",
+      "copyright_status": "Public domain (Song Dynasty work, >800 years ago)"
+    },
+    {
+      "title_zh": "南渡大小官署考",
+      "title_full_zh": "《南渡大小官署考》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0005"
+      ],
+      "author": "原作者不详 (Unknown original author); compiled by 马如龙 (Ma Rulong) in Hangzhou Fuzhi",
+      "dynasty": "Original: Southern Song Dynasty; compiled edition: Qing Dynasty",
+      "approx_date": "Song Dynasty (original, date unknown); compiled edition: Qing Dynasty (printed 1686 CE)",
+      "genre": "Institutional Study (考)",
+      "description_en": "A systematic survey of government offices established in Lin'an after the Southern Migration (nan du). Original author unknown; preserved in and used from Ma Rulong's Hangzhou Fuzhi (杭州府志), Kangxi 25th year edition, vol. 5, pp. 41–44.",
+      "source_edition": "(Qing) 马如龙 (Ma Rulong), 《杭州府志》卷五, Kangxi 25th year (1686 CE) printed edition, pp. 41–44",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/NA02587/chapter/1kthrftgbs4e7?page_from=searching_page&version=16",
+      "copyright_status": "Public domain (compiled edition printed 1686 CE, >300 years ago)"
+    },
+    {
+      "title_zh": "南渡行宫记",
+      "title_full_zh": "《南渡行宫记》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0006"
+      ],
+      "author": "陈世崇 (Chen Shichong)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (13th century CE); preserved in Yuan Dynasty host text",
+      "genre": "Palace Record (行宫记)",
+      "description_en": "Records of the temporary imperial palaces used by the Southern Song court during and after its southward migration. Preserved in (Yuan) Tao Zongyi's Nancun Chuogeng Lu (南村辍耕录), vol. 18; used here from the Sibucongkan Wu-Pan family Pangxi Studio Yuan-dynasty printed edition, pp. 12–14.",
+      "source_edition": "Collected in (元) 陶宗义 (Tao Zongyi), 《南村辍耕录》卷十八; 四部丛刊吴潘氏滂憙斋藏元刊本, pp. 12–14",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SBCK438/chapter/SBCK438_23?page_from=searching_page&version=18",
+      "copyright_status": "Public domain (Southern Song original; Yuan Dynasty host text, >650 years ago)"
+    },
+    {
+      "title_zh": "咸淳临安志",
+      "title_full_zh": "《咸淳临安志》",
+      "volumes_included": [
+        "卷1–14",
+        "卷19",
+        "卷21–24",
+        "卷28–39",
+        "卷52–53",
+        "卷55–57",
+        "卷71–73",
+        "卷75–82",
+        "卷86–88"
+      ],
+      "doc_ids": [
+        "DOC_0007",
+        "DOC_0008",
+        "DOC_0009",
+        "DOC_0010",
+        "DOC_0011",
+        "DOC_0012",
+        "DOC_0013",
+        "DOC_0014",
+        "DOC_0015",
+        "DOC_0016",
+        "DOC_0017",
+        "DOC_0018",
+        "DOC_0019",
+        "DOC_0020",
+        "DOC_0021",
+        "DOC_0022",
+        "DOC_0023",
+        "DOC_0024",
+        "DOC_0025",
+        "DOC_0026",
+        "DOC_0027",
+        "DOC_0028",
+        "DOC_0029",
+        "DOC_0030",
+        "DOC_0031",
+        "DOC_0032",
+        "DOC_0033",
+        "DOC_0034",
+        "DOC_0035",
+        "DOC_0036",
+        "DOC_0037",
+        "DOC_0038",
+        "DOC_0039",
+        "DOC_0040",
+        "DOC_0041",
+        "DOC_0042",
+        "DOC_0043",
+        "DOC_0044",
+        "DOC_0045",
+        "DOC_0046",
+        "DOC_0047",
+        "DOC_0048",
+        "DOC_0049",
+        "DOC_0050",
+        "DOC_0051",
+        "DOC_0052",
+        "DOC_0053",
+        "DOC_0054",
+        "DOC_0055",
+        "DOC_0056"
+      ],
+      "author": "潜说友 (Qian Shuoyou)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (13th century CE)",
+      "genre": "Local Gazetteer (方志)",
+      "description_en": "The most comprehensive Lin'an gazetteer surviving from the Song period, comprising 93 volumes. Provides exhaustive documentation of Lin'an's geography, institutions, buildings, rivers, and urban structure.",
+      "source_edition": "Qing Dynasty Siku Quanshu (四库全书) edition",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK0986/chapter/1l8z677qx8ahm?page_from=searching_page&version=18",
+      "copyright_status": "Public domain (Southern Song Dynasty work, >700 years ago)"
+    },
+    {
+      "title_zh": "增补武林旧事",
+      "title_full_zh": "《增补武林旧事》",
+      "volumes_included": [
+        "卷4",
+        "卷6",
+        "卷7",
+        "卷8"
+      ],
+      "doc_ids": [
+        "DOC_0057",
+        "DOC_0058",
+        "DOC_0059",
+        "DOC_0060"
+      ],
+      "author": "周密 (Zhou Mi), original; 朱庭焕 (Zhu Tinghuan), supplement",
+      "dynasty": "Southern Song Dynasty (original); Ming Dynasty (supplement)",
+      "approx_date": "Southern Song Dynasty (original, 13th century CE); supplement: Ming Dynasty (14th–17th century CE)",
+      "genre": "Urban Miscellany / Augmented Edition (增补笔记)",
+      "description_en": "An expanded edition of Zhou Mi's Wulin Jiushi with added materials on Lin'an's urban geography, palaces, streets, and landmarks.",
+      "source_edition": "Qing Dynasty Siku Quanshu (四库全书) edition",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK1083/chapter/start?page_from=searching_page&version=5",
+      "copyright_status": "Public domain (Southern Song original >700 years ago; Ming supplement >400 years ago)"
+    },
+    {
+      "title_zh": "宋行宫考",
+      "title_full_zh": "《宋行宫考》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0061"
+      ],
+      "author": "徐一夔 (Xu Yikui)",
+      "dynasty": "Ming Dynasty",
+      "approx_date": "Ming Dynasty (14th–15th century CE)",
+      "genre": "Antiquarian Study (考)",
+      "description_en": "A scholarly study of the Song imperial palace system in Lin'an by Ming scholar Xu Yikui. Preserved in his collected works Shifeng Gao (始丰稿); used here from the Siku Quanshu edition, pp. 2–5.",
+      "source_edition": "Collected in 《始丰稿》by Xu Yikui; Qing Dynasty Siku Quanshu (四库全书) edition, pp. 2–5",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK2902/chapter/1llxm0wxjmcko?page_from=searching_page&version=7",
+      "copyright_status": "Public domain (Ming Dynasty work, >500 years ago)"
+    },
+    {
+      "title_zh": "方舆胜览",
+      "title_full_zh": "《方舆胜览》",
+      "volumes_included": [
+        "卷1"
+      ],
+      "doc_ids": [
+        "DOC_0062"
+      ],
+      "author": "祝穆 (Zhu Mu)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (13th century CE)",
+      "genre": "Geographic Encyclopedia (地理总志)",
+      "description_en": "A comprehensive Song geographic encyclopaedia covering prefectures and notable sites across the empire. Volume 1 focuses on Lin'an prefecture.",
+      "source_edition": "Qing Dynasty Siku Quanshu (四库全书) edition",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK0971/chapter/1l8y5yg5jsxln?page_from=searching_page&version=9",
+      "copyright_status": "Public domain (Southern Song Dynasty work, >700 years ago)"
+    },
+    {
+      "title_zh": "杭州宋宫考",
+      "title_full_zh": "《杭州宋宫考》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0063"
+      ],
+      "author": "郎瑛 (Lang Ying)",
+      "dynasty": "Ming Dynasty",
+      "approx_date": "Ming Dynasty (15th–16th century CE)",
+      "genre": "Antiquarian Study (考)",
+      "description_en": "A survey of Song dynasty palaces in Hangzhou by Ming scholar Lang Ying. Preserved in his Qi Xiu Lei Gao (七修类稿), vol. 2. Edition details of the physical copy are unknown; accessed via the CADAL digital collection on Shidian Guji, p. 1.",
+      "source_edition": "Collected in 《七修类稿》卷二 by Lang Ying; physical edition date and publisher unknown; CADAL digitised copy, p. 1",
+      "digitisation_source": "Shidian Guji (识典古籍) via CADAL (中国高校数字图书馆), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/CADAL02056533/chapter/1lmkqeml2foka?page_from=searching_page&version=4",
+      "copyright_status": "Public domain (Ming Dynasty work, >400 years ago)"
+    },
+    {
+      "title_zh": "杭州宋祀典考",
+      "title_full_zh": "《杭州宋祀典考》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0064"
+      ],
+      "author": "郎瑛 (Lang Ying)",
+      "dynasty": "Ming Dynasty",
+      "approx_date": "Ming Dynasty (15th–16th century CE)",
+      "genre": "Antiquarian Study (考)",
+      "description_en": "A survey of Song dynasty ritual institutions in Hangzhou by Ming scholar Lang Ying. Preserved in his Qi Xiu Lei Gao (七修类稿), vol. 2. Edition details of the physical copy are unknown; accessed via CADAL on Shidian Guji, p. 1.",
+      "source_edition": "Collected in 《七修类稿》卷二 by Lang Ying; physical edition date and publisher unknown; CADAL digitised copy, p. 1",
+      "digitisation_source": "Shidian Guji (识典古籍) via CADAL (中国高校数字图书馆), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/CADAL02056533/chapter/1lmkqeml2foka?page_from=searching_page&version=4",
+      "copyright_status": "Public domain (Ming Dynasty work, >400 years ago)"
+    },
+    {
+      "title_zh": "杭宋勋臣郎官宅考",
+      "title_full_zh": "《杭宋勋臣郎官宅考》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0065"
+      ],
+      "author": "郎瑛 (Lang Ying)",
+      "dynasty": "Ming Dynasty",
+      "approx_date": "Ming Dynasty (15th–16th century CE)",
+      "genre": "Antiquarian Study (考)",
+      "description_en": "A survey of residences of meritorious ministers and court officials in Song Hangzhou, by Ming scholar Lang Ying. Preserved in his Qi Xiu Lei Gao (七修类稿), vol. 2; CADAL digitised copy, p. 2.",
+      "source_edition": "Collected in 《七修类稿》卷二 by Lang Ying; physical edition date and publisher unknown; CADAL digitised copy, p. 2",
+      "digitisation_source": "Shidian Guji (识典古籍) via CADAL (中国高校数字图书馆), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/CADAL02056533/chapter/1lmkqeml2foka?page_from=searching_page&version=4",
+      "copyright_status": "Public domain (Ming Dynasty work, >400 years ago)"
+    },
+    {
+      "title_zh": "杭州宋官署考",
+      "title_full_zh": "《杭州宋官署考》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0066"
+      ],
+      "author": "郎瑛 (Lang Ying)",
+      "dynasty": "Ming Dynasty",
+      "approx_date": "Ming Dynasty (15th–16th century CE)",
+      "genre": "Antiquarian Study (考)",
+      "description_en": "A survey of Song dynasty government offices in Hangzhou, by Ming scholar Lang Ying. Preserved in his Qi Xiu Lei Gao (七修类稿), vol. 2; CADAL digitised copy, pp. 2–4.",
+      "source_edition": "Collected in 《七修类稿》卷二 by Lang Ying; physical edition date and publisher unknown; CADAL digitised copy, pp. 2–4",
+      "digitisation_source": "Shidian Guji (识典古籍) via CADAL (中国高校数字图书馆), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/CADAL02056533/chapter/1lmkqeml2foka?page_from=searching_page&version=4",
+      "copyright_status": "Public domain (Ming Dynasty work, >400 years ago)"
+    },
+    {
+      "title_zh": "梦梁录",
+      "title_full_zh": "《梦梁录》",
+      "volumes_included": [
+        "卷7–16",
+        "卷19"
+      ],
+      "doc_ids": [
+        "DOC_0067",
+        "DOC_0068",
+        "DOC_0069",
+        "DOC_0070",
+        "DOC_0071",
+        "DOC_0072",
+        "DOC_0073",
+        "DOC_0074",
+        "DOC_0075",
+        "DOC_0076",
+        "DOC_0077"
+      ],
+      "author": "吴自牧 (Wu Zimu)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (13th century CE)",
+      "genre": "Urban Miscellany (笔记)",
+      "description_en": "A detailed description of Lin'an's urban life, institutions, and spatial organisation written near the end of the Southern Song.",
+      "source_edition": "Qing manuscript copy (清抄本)",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/NGJ89241199902237744990/chapter/1lox567qtlnnu?page_from=searching_page&version=2",
+      "copyright_status": "Public domain (Southern Song Dynasty work, >700 years ago)"
+    },
+    {
+      "title_zh": "武林旧事",
+      "title_full_zh": "《武林旧事》",
+      "volumes_included": [
+        "卷4",
+        "卷5",
+        "卷6"
+      ],
+      "doc_ids": [
+        "DOC_0078",
+        "DOC_0079",
+        "DOC_0080"
+      ],
+      "author": "周密 (Zhou Mi)",
+      "dynasty": "Southern Song / Yuan Dynasty",
+      "approx_date": "Southern Song / Yuan Dynasty (13th century CE)",
+      "genre": "Urban Miscellany (笔记)",
+      "description_en": "Zhou Mi's memoir of Lin'an's urban splendour, covering palaces, festivals, markets, and gardens.",
+      "source_edition": "Qing Dynasty Siku Quanshu (四库全书) edition",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK1082/chapter/start?page_from=searching_page&version=7",
+      "copyright_status": "Public domain (Southern Song / Yuan Dynasty work, >700 years ago)"
+    },
+    {
+      "title_zh": "淳祐临安志",
+      "title_full_zh": "《淳祐临安志》",
+      "volumes_included": [
+        "卷5–10"
+      ],
+      "doc_ids": [
+        "DOC_0081",
+        "DOC_0082",
+        "DOC_0083",
+        "DOC_0084",
+        "DOC_0085",
+        "DOC_0086"
+      ],
+      "author": "施谔 (Shi E), original; 胡敬 (Hu Jing), collated reconstruction",
+      "dynasty": "Southern Song Dynasty (original); Qing Dynasty (reconstruction)",
+      "approx_date": "Southern Song Dynasty (13th century CE); extant text reconstructed in Qing Dynasty",
+      "genre": "Local Gazetteer (方志)",
+      "description_en": "A Lin'an gazetteer compiled during the Chunyou reign, preceding the Xianchun edition. Only fragments survive; reconstructed by Qing scholar Hu Jing. The 1900 Ding-family Jiahui Hall edition was used.",
+      "source_edition": "光绪庚子（1900年）钱塘嘉惠堂丁氏刊 (Guangxu Gengzi [1900 CE] Qiantang Jiahui Hall Ding-family edition)",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/CADAL06211240/chapter/1lmk1mmlqrua7?page_from=searching_page&version=2",
+      "copyright_status": "Public domain (Southern Song original >700 years ago; Qing reconstruction >100 years ago)"
+    },
+    {
+      "title_zh": "西湖老人繁盛录",
+      "title_full_zh": "《西湖老人繁盛录》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0087"
+      ],
+      "author": "西湖老人 (Old Man of West Lake; anonymous pen name)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (13th century CE); preserved in Ming Dynasty Yongle Dadian",
+      "genre": "Urban Miscellany (笔记)",
+      "description_en": "An anonymous record of Lin'an's prosperity and bustling urban landscape. Preserved in the Yongle Dadian (永乐大典), vol. 7630 [18th Yang — Hang]; used here from the Jiajing (嘉靖) manuscript copy, pp. 1–18.",
+      "source_edition": "Collected in (明) 解缙 (Jie Jin) comp., 《永乐大典》卷7630【十八阳·杭】; Jiajing (嘉靖) manuscript copy (副本), pp. 1–18",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/YLDD00000/chapter/YLDD00000_1437?page_from=searching_page&version=5",
+      "copyright_status": "Public domain (Southern Song original; Ming Dynasty Yongle Dadian >600 years ago)"
+    },
+    {
+      "title_zh": "都城纪胜",
+      "title_full_zh": "《都城纪胜》",
+      "volumes_included": [
+        "全文"
+      ],
+      "doc_ids": [
+        "DOC_0088"
+      ],
+      "author": "耐得翁 (Nai De Weng; anonymous pen name)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (13th century CE)",
+      "genre": "Urban Miscellany (笔记)",
+      "description_en": "One of the earliest surviving descriptions of Lin'an as a capital city, covering markets, entertainment quarters, religious establishments, and urban districts.",
+      "source_edition": "Qing Dynasty Siku Quanshu (四库全书) edition",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/SK1080/chapter/1jpjk6vnw2qsy?page_from=searching_page&version=2",
+      "copyright_status": "Public domain (Southern Song Dynasty work, >700 years ago)"
+    }
+  ],
+  "ood_corpus": [
+    {
+      "title_zh": "舆地纪胜",
+      "title_full_zh": "《舆地纪胜》",
+      "volumes_included": [
+        "卷1",
+        "卷2"
+      ],
+      "doc_ids": [
+        "DOC_0089",
+        "DOC_0090"
+      ],
+      "author": "王象之 (Wang Xiangzhi)",
+      "dynasty": "Southern Song Dynasty",
+      "approx_date": "Southern Song Dynasty (12th–13th century CE)",
+      "genre": "Geographic Encyclopedia (地理总志)",
+      "description_en": "A large-scale Song geographic encyclopedia covering all prefectures of the empire. Volumes 1–2 (used as OOD data) cover Lin'an prefecture but represent an independent stylistic and structural tradition distinct from the IND corpus.",
+      "rationale_for_ood": "Though the subject matter overlaps with IND texts, Yuedi Jisheng was compiled by a different author with a distinct encyclopaedic methodology covering the entire empire rather than focusing locally on Lin'an. No text or volume appears in both IND and OOD corpora.",
+      "source_edition": "末清李韵亭重修本 (Late Qing revised edition by Li Yunting)",
+      "digitisation_source": "Shidian Guji (识典古籍), shidianguji.com",
+      "shidian_guji_url": "https://www.shidianguji.com/book/NLG312001054554/chapter/start?page_from=searching_page&version=12",
+      "copyright_status": "Public domain (Southern Song Dynasty work, >700 years ago; revised edition late Qing, >100 years ago)"
+    }
+  ],
+  "digitisation_process": {
+    "platform": "Shidian Guji (识典古籍), https://www.shidianguji.com",
+    "platform_description": "A publicly accessible digital repository for classical Chinese texts. No login required.",
+    "method": "Page-image scans of the specified historical editions were downloaded from Shidian Guji. Optical character recognition (OCR) was applied, followed by systematic manual correction of recognition errors. Items 10–13 (essays from Qi Xiu Lei Gao) were accessed via the CADAL (China Academic Digital Associative Library, 中国高校数字图书馆) collection hosted on Shidian Guji.",
+    "copyright_statement": "All source texts are in the public domain. Faithful digital reproductions of public domain texts do not attract new copyright protection under Chinese law (which requires originality [独创性] for copyright to subsist). The dataset releases only annotation layers (entity spans and relation labels) under CC BY 4.0; the full source texts are not included in the dataset release."
+  }
+}
