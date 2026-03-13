@@ -21,11 +21,11 @@ GEPR-LINAN-NEW/
 │   │   ├── test.json
 │   │   ├── ood.json
 │   │   └── types.json
-│   └── jsonl-format/             # Format 3: Paragraph-level JSONL (DyGIE++-compatible)
-│       ├── train.json
-│       ├── dev.json
-│       ├── test.json
-│       └── ood.json
+│   └── jsonl-format/             # Format 3: Paragraph-level JSONL (PURE / PL-Marker compatible)
+│       ├── train.jsonl
+│       ├── dev.jsonl
+│       ├── test.jsonl
+│       └── ood.jsonl
 ├── mappings/                     # Document/sentence/paragraph ID cross-reference files
 │   ├── doc_id_mapping.json
 │   ├── doc_meta.json
@@ -36,9 +36,10 @@ GEPR-LINAN-NEW/
 │   ├── para_to_sent_mapping.json
 │   └── sent_to_para_mapping.json
 └── supplementary/                # Supplementary materials
+    ├── annotation_guidelines_zh.md
+    ├── bibliography.md
     ├── codebook_en.json
     ├── dataset_statistics.json
-    ├── source_texts_metadata.json
     ├── annotation_metadata.json
     └── DATA_RECORD.md  (this file)
 ```
@@ -167,10 +168,10 @@ Random seed: 42. Approximate ratio: 80 / 10 / 10 for train / dev / test.
 
 ## Format 3: PLM/jsonl-format/ — Paragraph-Level JSONL
 
-### File: `PLM/jsonl-format/{train,dev,test,ood}.json`
+### File: `PLM/jsonl-format/{train,dev,test,ood}.jsonl`
 
 **File format**: JSONL (JSON Lines). Each line is a JSON object representing one *paragraph*
-(DyGIE++ / PURE-compatible).
+(PURE / PL-Marker compatible).
 
 **Paragraph definition**: Up to 5 consecutive sentences from the **same document volume**.
 Paragraphs never cross document or volume boundaries.

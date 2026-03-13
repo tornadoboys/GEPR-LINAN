@@ -11,7 +11,7 @@
       "Antiquarian studies (考)"
     ],
     "linguistic_characteristics": {
-      "avg_sentence_length_chars": "15–20 (basic clause units in Classical Chinese)",
+      "avg_sentence_length_chars": "48.91 (median: 25; IND splits: 45–52; OOD: 69)",
       "entity_density": "1–2 geographical entities per ~30 characters",
       "spatial_expression_richness": "Rich variety of azimuth words (方位词); directional expressions are particularly diverse and explicit"
     },

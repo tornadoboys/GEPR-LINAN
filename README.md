@@ -106,10 +106,8 @@ GEPR-LINAN/
     ├── bibliography.md              # Full bibliography with Shidian Guji URLs
     ├── codebook_en.json             # English codebook: all 24 entity types + 34 relation types
     ├── dataset_statistics.json      # Computed statistics per split
-    ├── source_texts_metadata.json   # Bibliographic metadata for all source texts
     ├── annotation_metadata.json     # Annotation pipeline, IAA results, model details
-    ├── DATA_RECORD.md               # Field-level documentation for all formats
-    └── SUPPLEMENTARY_INDEX.md       # Index cross-referencing reviewer comments
+    └── DATA_RECORD.md               # Field-level documentation for all formats
 ```
 
 ---

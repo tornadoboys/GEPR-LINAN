@@ -1,7 +1,7 @@
 # GEPR-LINAN Source Text Bibliography
 
 Full bibliographic details for all source texts used in the GEPR-LINAN dataset.
-All texts are in the public domain. Digital scans obtained from **Shidian Guji (识典古籍)**, https://www.shidianguji.com — a freely accessible open-access platform operated by Peking University.
+All texts are in the public domain. Digital scans obtained from **Shidian Guji (识典古籍)**, https://www.shidianguji.com — a publicly accessible digital repository for classical Chinese texts.
 OCR and manual correction were performed by the authors.
 
 ---
@@ -47,7 +47,7 @@ The GEPR-LINAN dataset releases **only annotation layers** (entity type labels a
 
 ## Notes on Digitisation
 
-- Platform: **Shidian Guji (识典古籍)**, https://www.shidianguji.com, operated by Peking University. Free, open access, no login required.
+- Platform: **Shidian Guji (识典古籍)**, https://www.shidianguji.com. Free, open access, no login required.
 - Items 10–13 (《七修类稿》essays by Lang Ying): accessed via the **CADAL** (China Academic Digital Associative Library, 中国高校数字图书馆) collection hosted on Shidian Guji.
 - Process: Page-image scans downloaded → OCR applied → systematic manual correction by authors.
 - Items 10–13 note: The physical edition details of 《七修类稿》 are not recorded in the CADAL metadata; the copy appears to be a late imperial or Republican-era print. The text content is consistent across known editions.
