@@ -41,7 +41,7 @@ OCR and manual correction were performed by the authors.
 
 ## Copyright Statement
 
-All source texts are in the public domain. The most recent author whose dates are known, Lang Ying (郎瑛), died c. 1566 CE (>450 years ago). All other authors are from the Song Dynasty (12th–13th century CE, >750 years ago). The most recent printed edition used is the 1900 Ding-family Jiahui Hall edition of *Chunyou Lin'an Zhi*, now >124 years old. All works and editions are unambiguously in the public domain under Chinese and international copyright law.
+All source texts are in the public domain. The most recent author whose dates are known, Lang Ying (郎瑛), died c. 1566 CE (>450 years ago). All other authors are from the Song Dynasty (12th–13th century CE, >700 years ago). The most recent printed edition used is the 1900 Ding-family Jiahui Hall edition of *Chunyou Lin'an Zhi*, now >124 years old. All works and editions are unambiguously in the public domain under Chinese and international copyright law.
 
 The GEPR-LINAN dataset releases **only annotation layers** (entity type labels and relation type labels over text spans). The full source texts are **not** included in the dataset. The annotation layers are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
 
@@ -50,4 +50,3 @@ The GEPR-LINAN dataset releases **only annotation layers** (entity type labels a
 - Platform: **Shidian Guji (识典古籍)**, https://www.shidianguji.com. Free, open access, no login required.
 - Items 10–13 (《七修类稿》essays by Lang Ying): accessed via the **CADAL** (China Academic Digital Associative Library, 中国高校数字图书馆) collection hosted on Shidian Guji.
 - Process: Page-image scans downloaded → OCR applied → systematic manual correction by authors.
-- Items 10–13 note: The physical edition details of 《七修类稿》 are not recorded in the CADAL metadata; the copy appears to be a late imperial or Republican-era print. The text content is consistent across known editions.
