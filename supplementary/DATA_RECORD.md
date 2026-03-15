@@ -224,7 +224,7 @@ All mapping files are JSON objects (dictionaries).
 | File | Key | Value | Description |
 |------|-----|-------|-------------|
 | `doc_id_mapping.json` | Document title string (e.g., `"《乾道临安志》卷1"`) | `"DOC_XXXX"` | Maps source text title+volume to canonical document ID. |
-| `doc_meta.json` | `"DOC_XXXX"` | `{title, split, sentence_count, para_count}` | Metadata for each document volume: human-readable title, assigned split, and counts. |
+| `doc_meta.json` | `"DOC_XXXX"` | `{title, english_title, split, sentence_count, para_count}` | Metadata for each document volume: Chinese title, English title, assigned split, and counts. |
 | `doc_to_sent_mapping.json` | `"DOC_XXXX"` | `["SENT_XXXXXX", ...]` | All sentence IDs belonging to a document, in original text order. |
 | `sent_to_doc_mapping.json` | `"SENT_XXXXXX"` | `"DOC_XXXX"` | Reverse lookup: which document a sentence belongs to. |
 | `doc_to_para_mapping.json` | `"DOC_XXXX"` | `["PARA_XXXXXX", ...]` | All paragraph IDs belonging to a document, in original text order. |

@@ -43,7 +43,7 @@
       {
         "stage": 2,
         "name": "Manual Verification and Revision",
-        "description": "Annotators reviewed and corrected LLM candidates via an annotation platform. The review workflow was stratified by LLM confidence.",
+        "description": "Annotators reviewed and corrected LLM-generated JSON outputs directly, without a dedicated annotation platform. Each sentence's candidate annotations were presented as a JSON object; annotators edited entity spans, types, and relation tuples inline. Sentences where annotators were uncertain about entity boundaries, type assignment, or relation direction were independently annotated by both annotators and adjudicated by a senior expert reviewer; all other sentences were reviewed and corrected by a single annotator.",
         "annotator_count": 2,
         "annotator_ids": [
           "Annotator A",
@@ -62,6 +62,7 @@
           "Removing false-positive candidates introduced by the LLM",
           "Flagging and recording uncertain or genuinely ambiguous cases"
         ],
+        "llm_candidate_acceptance_rate": "Acceptance/modification/rejection rates for individual LLM-generated candidates were not systematically logged at the sentence level during production annotation. Based on annotator records, the majority of LLM-generated entity spans required at least minor boundary or type correction; complete rejection of an entire sentence's candidates was uncommon. Precise per-category rates are not available.",
         "review_workflow": {
           "uncertain_or_ambiguous_sentences": "Sentences where annotators were uncertain about entity boundaries, type assignment, or relation direction were flagged and independently annotated by both annotators; disagreements were arbitrated by a designated senior expert reviewer (third party).",
           "other_sentences": "All other sentences were reviewed and corrected by a single annotator."
@@ -140,7 +141,7 @@
     }
   },
   "annotation_guidelines": {
-    "availability": "Full annotation guidelines (in Chinese) are included in the dataset repository as supplementary/annotation_guidelines_zh.pdf",
+    "availability": "Full annotation guidelines (in Chinese) are included in the dataset repository as supplementary/annotation_guidelines_zh.md",
     "language": "Chinese (Classical Chinese terms with Modern Chinese explanations)",
     "key_principles": [
       "Annotate entities according to their referent and primary function in the Southern Song historical context, not modern usage or post-Song reinterpretation.",

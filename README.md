@@ -1,7 +1,7 @@
 # A Dataset of Geographic Entities and Relationships from Song Dynasty Texts on Lin'an
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18974471-blue)](https://doi.org/10.5281/zenodo.18974471)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18974470-blue)](https://doi.org/10.5281/zenodo.18974470)
 
 ---
 
@@ -29,7 +29,7 @@ The dataset provides annotations for **24 geographical entity types** and **34 s
 
 ## Source Texts
 
-All source texts were accessed via Shidian Guji (https://www.shidianguji.com), a publicly accessible digital repository for classical Chinese texts. For each text, page-image scans of the corresponding historical edition were downloaded and optical character recognition (OCR) was applied, followed by systematic manual proofreading and correction. Complete bibliographic details, edition information, and individual URLs are provided in `supplementary/bibliography.md` and `supplementary/source_texts_metadata.json`.
+All source texts were accessed via Shidian Guji (https://www.shidianguji.com), a publicly accessible digital repository for classical Chinese texts. For each text, page-image scans of the corresponding historical edition were downloaded and optical character recognition (OCR) was applied, followed by systematic manual proofreading and correction. Complete bibliographic details, edition information, and individual URLs are provided in `supplementary/bibliography.md`.
 
 ### In-Domain Corpus (IND)
 
@@ -171,7 +171,7 @@ Annotations were produced using a semi-automatic pipeline:
 1. **Candidate generation**: GPT-5 (temperature 0.3) was prompted with a structured system prompt specifying all 24 entity types and 34 relation types, using few-shot examples drawn from the Lin'an corpus.
 2. **Human verification (Rounds 1–3)**: Annotators with backgrounds in computational linguistics and classical Chinese philology reviewed and corrected the GPT-5-generated candidate annotations in JSON format, correcting entity spans, types, and relation labels as needed. Sentences that remained genuinely ambiguous after individual review were escalated to a senior annotator for adjudication.
 3. **Iterative refinement**: Annotation guidelines were updated across rounds based on systematic error analysis.
-4. **IAA evaluation (Round 4)**: Approximately 5,000 sentences, stratified across all source texts, were presented to both annotators as plain text in Label Studio — with no pre-generated labels and no access to each other's annotations — and each annotator produced annotations independently from scratch. Strict F1 was computed as the inter-annotator agreement metric.
+4. **IAA evaluation (Round 4)**: Approximately 5,000 sentences, stratified across all source texts, were presented to both annotators as plain text — with no pre-generated labels and no access to each other's annotations — and each annotator independently produced annotations from scratch in JSON format. Strict F1 was computed as the inter-annotator agreement metric.
 
 Full prompt templates and annotation decision rules are documented in `supplementary/annotation_guidelines_zh.md`.
 
@@ -255,7 +255,7 @@ For type definitions, boundary rules, and annotated examples, see `supplementary
 
 ## Data Access
 
-The dataset is available at: **https://doi.org/10.5281/zenodo.18974471**
+The dataset is available at: **https://doi.org/10.5281/zenodo.18974470**
 
 All files are encoded in UTF-8 and released under CC BY 4.0. The repository contains no personally identifiable information. All primary source texts are pre-modern classical Chinese works in the public domain.
 
@@ -274,7 +274,7 @@ If you use this dataset, please cite both the dataset and the paper.
 **Dataset:**
 
 ```bibtex
-@dataset{zhang_2026_18974471,
+@dataset{zhang_2026_18974470,
   author    = {Zhang, Chi and
                Zhong, Fengchen and
                Chen, Zuohui and
@@ -285,8 +285,8 @@ If you use this dataset, please cite both the dataset and the paper.
   month     = mar,
   year      = 2026,
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.18974471},
-  url       = {https://doi.org/10.5281/zenodo.18974471}
+  doi       = {10.5281/zenodo.18974470},
+  url       = {https://doi.org/10.5281/zenodo.18974470}
 }
 ```
 
