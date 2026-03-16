@@ -1,6 +1,6 @@
 # GEPR-LINAN Source Text Bibliography
 
-Full bibliographic details for all source texts used in the GEPR-LINAN dataset.
+Full bibliographic details for all source texts used in the GEPR-LINAN dataset (19 text units in total: 18 IND text units from 15 source works, plus 1 OOD text).
 All texts are in the public domain. Digital scans obtained from **Shidian Guji (识典古籍)**, https://www.shidianguji.com — a publicly accessible digital repository for classical Chinese texts.
 OCR and manual correction were performed by the authors.
 

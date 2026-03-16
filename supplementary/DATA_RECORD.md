@@ -36,7 +36,7 @@ GEPR-LINAN-NEW/
 │   ├── para_to_sent_mapping.json
 │   └── sent_to_para_mapping.json
 └── supplementary/                # Supplementary materials
-    ├── annotation_guidelines.md
+    ├── annotation_guidelines_zh.md
     ├── bibliography.md
     ├── codebook_en.json
     ├── dataset_statistics.json

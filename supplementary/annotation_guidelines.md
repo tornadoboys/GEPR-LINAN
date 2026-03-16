@@ -18,7 +18,7 @@
 
 ### 1.1 Dataset Background
 
-GEPR-LINAN is a named entity recognition and relation extraction dataset for geographical information from Lin'an (present-day Hangzhou, Zhejiang), the capital of the Southern Song Dynasty. The corpus is drawn from **18 text units (from 15 source works)**, including *Xianchun Lin'an Zhi*, *Qiandao Lin'an Zhi*, *Chunyou Lin'an Zhi*, *Mengliang Lu*, *Wulin Jiushi*, and *Ducheng Jisheng*, comprising 4,920 annotated sentences, 25,397 entity instances, and 17,881 relation instances across 24 geographical entity categories and 34 geographical relation types.
+GEPR-LINAN is a named entity recognition and relation extraction dataset for geographical information from Lin'an (present-day Hangzhou, Zhejiang), the capital of the Southern Song Dynasty. The corpus is drawn from **19 text units (18 IND text units from 15 source works, plus 1 OOD text)**, including *Xianchun Lin'an Zhi*, *Qiandao Lin'an Zhi*, *Chunyou Lin'an Zhi*, *Mengliang Lu*, *Wulin Jiushi*, and *Ducheng Jisheng*, comprising 4,920 annotated sentences, 25,397 entity instances, and 17,881 relation instances across 24 geographical entity categories and 34 geographical relation types.
 
 ### 1.2 Annotation Objectives
 
@@ -52,7 +52,7 @@ Annotator A verifies and corrects
    ↓
 Multi-round iteration (4 rounds total)
    ↓
-~5,000 sentences independently annotated by two annotators → IAA computed
+~600 sentences (approximately 12% of the full corpus of 4,920 sentences) independently annotated by two annotators → IAA computed
    ↓
 Final dataset release
 ```
@@ -69,7 +69,7 @@ Final dataset release
 |-------|---------|
 | Round 1 | Pre-annotation: GPT-5-generated candidates reviewed and corrected by Annotator A, who has expertise in both computational linguistics and classical Chinese |
 | Rounds 2–3 | Verification: two additional scholars of classical Chinese independently verify the annotations; systematic errors update guidelines and prompt templates; inter-verifier disagreements escalated to a senior expert in classical Chinese philology for adjudication |
-| Round 4 | IAA experiment: the same two verifiers independently annotate ~5,000 sentences from scratch (no LLM candidates); strict F1 computed |
+| Round 4 | IAA experiment: the same two verifiers independently annotate ~600 sentences (approximately 12% of the full corpus of 4,920 sentences) from scratch (no LLM candidates); strict F1 computed |
 | Post-processing | Apply systematic corrections uniformly across the full dataset |
 
 ---
@@ -685,7 +685,7 @@ Entities ner: [["entity1","type1"],["entity2","type2"],...]
 - **Entity match**: text span must be exactly identical **and** type must match
 - **Relation match**: head entity, tail entity, and relation type must all match
 
-**Final IAA** (based on a stratified sample of ~5,000 sentences):
+**Final IAA** (based on a stratified sample of ~600 sentences, approximately 12% of the full corpus of 4,920 sentences):
 
 | Task | F1 |
 |------|----|
@@ -727,8 +727,8 @@ This chapter sets out the operating procedures specific to the Round 4 IAA exper
 | Item | Specification |
 |------|---------------|
 | Participants | Annotator A and Annotator B (the same two scholars who performed verification in Rounds 2–3 of the production phase; a senior expert in classical Chinese philology served as adjudicator for disputed cases throughout production and IAA; four scholars participated in total across all phases) |
-| Sampling method | Stratified sampling: covering all **18 text units (from 15 source works)** and all 6 functional entity categories |
-| Sample size | Approximately 5,000 sentences (exact count determined at sampling) |
+| Sampling method | Stratified sampling: covering all **19 text units (18 IND text units from 15 source works, plus 1 OOD text)** and all 6 functional entity categories |
+| Sample size | Approximately 600 sentences (approximately 12% of the full corpus of 4,920 sentences; exact count determined at sampling) |
 | Use of GPT-5 candidates | **No** — neither annotator may view any pre-generated annotations |
 | Mutual visibility | **No** — neither annotator may view the other's results until both have submitted |
 | Guidelines version | Both annotators use **the final version of these guidelines (v1.0)** |
@@ -768,7 +768,7 @@ The following are the points most likely to produce divergence in the IAA experi
 
 ### 8.4 Submission and Adjudication Procedure
 
-1. Both annotators **independently complete** the full set of ~5,000 sentences and submit their annotations as JSON files;
+1. Both annotators **independently complete** the full set of ~600 sentences and submit their annotations as JSON files;
 2. The project lead runs the comparison script to compute **strict F1** (method as per Section 7.1) on the two JSON files;
 3. For cases where the two annotations disagree, first check whether the case falls into the high-frequency divergence types in Section 8.3;
 4. Adjudication follows the same procedure as Section 7.2: consult the guidelines → third-party adjudication → add rule to guidelines.

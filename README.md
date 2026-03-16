@@ -171,7 +171,7 @@ Annotations were produced using a semi-automatic pipeline:
 1. **Candidate generation**: GPT-5 (temperature 0.3) was prompted with a structured system prompt specifying all 24 entity types and 34 relation types, using few-shot examples drawn from the Lin'an corpus.
 2. **Human verification (Rounds 1–3)**: Annotators with backgrounds in computational linguistics and classical Chinese philology reviewed and corrected the GPT-5-generated candidate annotations in JSON format, correcting entity spans, types, and relation labels as needed. Sentences that remained genuinely ambiguous after individual review were escalated to a senior annotator for adjudication.
 3. **Iterative refinement**: Annotation guidelines were updated across rounds based on systematic error analysis.
-4. **IAA evaluation (Round 4)**: Approximately 5,000 sentences, stratified across all source texts, were presented to both annotators as plain text — with no pre-generated labels and no access to each other's annotations — and each annotator independently produced annotations from scratch in JSON format. Strict F1 was computed as the inter-annotator agreement metric.
+4. **IAA evaluation (Round 4)**: Approximately 600 sentences, stratified across all source texts, were presented to both annotators as plain text — with no pre-generated labels and no access to each other's annotations — and each annotator independently produced annotations from scratch in JSON format. Strict F1 was computed as the inter-annotator agreement metric.
 
 Full prompt templates and annotation decision rules are documented in `supplementary/annotation_guidelines.md`.
 

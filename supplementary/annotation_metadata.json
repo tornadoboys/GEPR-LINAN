@@ -1,7 +1,8 @@
 {
   "_note": "All statistics in this file are derived directly from the published paper (GEPR-LINAN, Scientific Data submission) and the actual annotation records.",
   "corpus_overview": {
-    "total_documents": 18,
+    "total_documents": 19,
+    "total_documents_note": "18 IND text units from 15 source works, plus 1 OOD text (Yuedi Jisheng, vols. 1–2)",
     "total_characters_approx": "~1,000,000",
     "text_genres": [
       "Official histories (正史)",
@@ -90,8 +91,9 @@
     "purpose": "To assess the reliability of the final annotations for geographical entities and spatial relations in Southern Song classical texts.",
     "sampling_strategy": "Stratified random sampling over all annotated documents, ensuring coverage of different source texts and spatial description types.",
     "sample_size": {
-      "sentences": 5000,
-      "proportion_of_corpus": "approximately 12%"
+      "sentences": "approximately 600",
+      "proportion_of_corpus": "approximately 12%",
+      "total_corpus_sentences": "4920"
     },
     "annotators": {
       "count": 2,
