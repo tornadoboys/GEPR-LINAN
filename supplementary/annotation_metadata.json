@@ -141,7 +141,7 @@
     }
   },
   "annotation_guidelines": {
-    "availability": "Full annotation guidelines (in Chinese) are included in the dataset repository as supplementary/annotation_guidelines_zh.md",
+    "availability": "Full annotation guidelines (in Chinese) are included in the dataset repository as supplementary/annotation_guidelines.md",
     "language": "Chinese (Classical Chinese terms with Modern Chinese explanations)",
     "key_principles": [
       "Annotate entities according to their referent and primary function in the Southern Song historical context, not modern usage or post-Song reinterpretation.",

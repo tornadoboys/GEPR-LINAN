@@ -102,7 +102,7 @@ GEPR-LINAN/
 │   └── sent_to_para_mapping.json    # SENT_XXXXXX → PARA_XXXXXX
 │
 └── supplementary/
-    ├── annotation_guidelines_zh.md  # Full annotation guidelines (Chinese, with GPT-5 prompts)
+    ├── annotation_guidelines.md     # Full annotation guidelines (with GPT-5 prompts)
     ├── bibliography.md              # Full bibliography with Shidian Guji URLs
     ├── codebook_en.json             # English codebook: all 24 entity types + 34 relation types
     ├── dataset_statistics.json      # Computed statistics per split
@@ -173,7 +173,7 @@ Annotations were produced using a semi-automatic pipeline:
 3. **Iterative refinement**: Annotation guidelines were updated across rounds based on systematic error analysis.
 4. **IAA evaluation (Round 4)**: Approximately 5,000 sentences, stratified across all source texts, were presented to both annotators as plain text — with no pre-generated labels and no access to each other's annotations — and each annotator independently produced annotations from scratch in JSON format. Strict F1 was computed as the inter-annotator agreement metric.
 
-Full prompt templates and annotation decision rules are documented in `supplementary/annotation_guidelines_zh.md`.
+Full prompt templates and annotation decision rules are documented in `supplementary/annotation_guidelines.md`.
 
 **Note on anchoring bias**: In the production phase, annotators corrected pre-existing model proposals rather than annotating from scratch. This introduces a potential anchoring effect that the IAA experiment — conducted on raw text without model pre-labelling — does not fully capture. Users should be aware of this limitation when interpreting annotation consistency.
 
@@ -249,7 +249,7 @@ Full prompt templates and annotation decision rules are documented in `supplemen
 | 方位关系（东南） | Is southeast of | 48 |
 | 方位关系（西北） | Is northwest of | 47 |
 
-For type definitions, boundary rules, and annotated examples, see `supplementary/annotation_guidelines_zh.md` and `supplementary/codebook_en.json`.
+For type definitions, boundary rules, and annotated examples, see `supplementary/annotation_guidelines.md` and `supplementary/codebook_en.json`.
 
 ---
 
