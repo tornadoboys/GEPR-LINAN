@@ -33,26 +33,26 @@ All source texts were accessed via Shidian Guji (https://www.shidianguji.com), a
 
 ### In-Domain Corpus (IND)
 
-| Title (Chinese) | Title (English) | Author | Period | Edition |
-|-----------------|-----------------|--------|--------|---------|
-| 乾道临安志（卷1–2） | *Qiandao Lin'an Zhi*, vols. 1–2 | 周淙 Zhou Chong | S. Song (12th c.) | *Siku Quanshu*, Qing ed. |
-| 二老堂杂志（卷4） | *Erlaotang Zazhi*, vol. 4 | 周必大 Zhou Bida | S. Song (12th–13th c.) | Qing manuscript copy |
-| 六和塔记 | *Record of the Liuhe Pagoda* | 曹勋 Cao Xun | Song (12th c.) | In *Songyinji*, *Siku Quanshu*, Qing ed. |
-| 南渡大小官署考 | *Survey of Official Offices of the Southern Migration* | Anon.; comp. Ma Rulong | Qing compilation, 1686 | In *Hangzhou Fuzhi* vol. 5, Kangxi 25 ed. |
+| Title (Chinese) | Title (English)                                                  | Author | Period | Edition |
+|-----------------|------------------------------------------------------------------|--------|--------|---------|
+| 乾道临安志（卷1–2） | *Qiandao Lin'an Zhi*, vols. 1–2                                  | 周淙 Zhou Chong | S. Song (12th c.) | *Siku Quanshu*, Qing ed. |
+| 二老堂杂志（卷4） | *Erlaotang Zazhi*, vol. 4                                        | 周必大 Zhou Bida | S. Song (12th–13th c.) | Qing manuscript copy |
+| 六和塔记 | *Record of the Liuhe Pagoda*                                     | 曹勋 Cao Xun | Song (12th c.) | In *Songyinji*, *Siku Quanshu*, Qing ed. |
+| 南渡大小官署考 | *Survey of Official Offices of the Southern Migration*           | Anon.; comp. Ma Rulong | Qing compilation, 1686 | In *Hangzhou Fuzhi* vol. 5, Kangxi 25 ed. |
 | 南渡行宫记 | *Record of Temporary Imperial Palaces of the Southern Migration* | 陈世崇 Chen Shichong | S. Song (13th c.) | In *Nancun Chuogenglu* vol. 18, *Sibu Congkan* Yuan ed. |
-| 咸淳临安志（选卷） | *Xianchun Lin'an Zhi* (selected volumes) | 潜说友 Qian Shuoyou | S. Song (1268–1274) | *Siku Quanshu*, Qing ed. |
-| 增补武林旧事（卷4,6,7,8） | *Zengbu Wulin Jiushi*, vols. 4, 6, 7, 8 | 周密 Zhou Mi (orig.); 朱庭焕 Zhu Tinghuan (suppl.) | S. Song (orig.); Ming (suppl.) | *Siku Quanshu*, Qing ed. |
-| 宋行宫考 | *Survey of Song Imperial Palaces* | 徐一夔 Xu Yikui | Ming | In *Shifenggao*, *Siku Quanshu*, Qing ed. |
-| 方舆胜览（卷1） | *Fangyu Shenglan*, vol. 1 | 祝穆 Zhu Mu | S. Song (c. 1239) | *Siku Quanshu*, Qing ed. |
-| 杭州宋宫考 | *Survey of Song Palaces in Hangzhou* | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 杭州宋祀典考 | *Survey of Song Ritual Institutions in Hangzhou* | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 杭宋勋臣郎官宅考 | *Survey of Meritorious Ministers' Residences in Song Hangzhou* | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 杭州宋官署考 | *Survey of Song Government Offices in Hangzhou* | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 梦梁录（卷7–16, 19） | *Mengliang Lu*, vols. 7–16, 19 | 吴自牧 Wu Zimu | S. Song (c. 1270s) | Qing manuscript copy |
-| 武林旧事（卷4–6） | *Wulin Jiushi*, vols. 4–6 | 周密 Zhou Mi | S. Song (c. 1280s–1290s) | *Siku Quanshu*, Qing ed. |
-| 淳祐临安志（卷5–10） | *Chunyou Lin'an Zhi*, vols. 5–10 | 施谔 Shi E (orig.); 胡敬 Hu Jing (reconstr.) | S. Song (1241–52); Qing reconstr. | Ding Family Press, Jiahui Hall, 1900 |
-| 西湖老人繁盛录 | *Xihu Laoren Fengsheng Lu* | 西湖老人 (anon.) | S. Song (13th c.) | In *Yongle Dadian* vol. 7630, Jiajing copy |
-| 都城纪胜 | *Ducheng Jisheng* | 耐得翁 Naideweng (anon.) | S. Song (c. 1235) | *Siku Quanshu*, Qing ed. |
+| 咸淳临安志（选卷） | *Xianchun Lin'an Zhi* (selected volumes)                         | 潜说友 Qian Shuoyou | S. Song (1268–1274) | *Siku Quanshu*, Qing ed. |
+| 增补武林旧事（卷4,6,7,8） | *Zengbu Wulin Jiushi*, vols. 4, 6, 7, 8                          | 周密 Zhou Mi (orig.); 朱庭焕 Zhu Tinghuan (suppl.) | S. Song (orig.); Ming (suppl.) | *Siku Quanshu*, Qing ed. |
+| 宋行宫考 | *Survey of Song Imperial Palaces*                                | 徐一夔 Xu Yikui | Ming | In *Shifenggao*, *Siku Quanshu*, Qing ed. |
+| 方舆胜览（卷1） | *Fangyu Shenglan*, vol. 1                                        | 祝穆 Zhu Mu | S. Song (c. 1239) | *Siku Quanshu*, Qing ed. |
+| 杭州宋宫考 | *Survey of Song Palaces in Hangzhou*                             | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 杭州宋祀典考 | *Survey of Song Ritual Institutions in Hangzhou*                 | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 杭宋勋臣郎官宅考 | *Survey of Meritorious Ministers' Residences in Song Hangzhou*   | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 杭州宋官署考 | *Survey of Song Government Offices in Hangzhou*                  | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 梦梁录（卷7–16, 19） | *Mengliang Lu*, vols. 7–16, 19                                   | 吴自牧 Wu Zimu | S. Song (c. 1270s) | Qing manuscript copy |
+| 武林旧事（卷4–6） | *Wulin Jiushi*, vols. 4–6                                        | 周密 Zhou Mi | S. Song (c. 1280s–1290s) | *Siku Quanshu*, Qing ed. |
+| 淳祐临安志（卷5–10） | *Chunyou Lin'an Zhi*, vols. 5–10                                 | 施谔 Shi E (orig.); 胡敬 Hu Jing (reconstr.) | S. Song (1241–52); Qing reconstr. | Ding Family Press, Jiahui Hall, 1900 |
+| 西湖老人繁盛录 | *Xihu Laoren Fansheng Lu*                                         | 西湖老人 (anon.) | S. Song (13th c.) | In *Yongle Dadian* vol. 7630, Jiajing copy |
+| 都城纪胜 | *Ducheng Jisheng*                                                | 耐得翁 Naideweng (anon.) | S. Song (c. 1235) | *Siku Quanshu*, Qing ed. |
 
 S. Song = Southern Song dynasty. CADAL = China Academic Digital Associative Library.
 
