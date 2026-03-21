@@ -35,24 +35,24 @@ All source texts were accessed via Shidian Guji (https://www.shidianguji.com), a
 
 | Title (Chinese) | Title (English)                                                  | Author | Period | Edition |
 |-----------------|------------------------------------------------------------------|--------|--------|---------|
-| 乾道临安志（卷1–2） | *Qiandao Lin'an Zhi*, vols. 1–2                                  | 周淙 Zhou Chong | S. Song (12th c.) | *Siku Quanshu*, Qing ed. |
-| 二老堂杂志（卷4） | *Erlaotang Zazhi*, vol. 4                                        | 周必大 Zhou Bida | S. Song (12th–13th c.) | Qing manuscript copy |
-| 六和塔记 | *Record of the Liuhe Pagoda*                                     | 曹勋 Cao Xun | Song (12th c.) | In *Songyinji*, *Siku Quanshu*, Qing ed. |
-| 南渡大小官署考 | *Survey of Official Offices of the Southern Migration*           | Anon.; comp. Ma Rulong | Qing compilation, 1686 | In *Hangzhou Fuzhi* vol. 5, Kangxi 25 ed. |
-| 南渡行宫记 | *Record of Temporary Imperial Palaces of the Southern Migration* | 陈世崇 Chen Shichong | S. Song (13th c.) | In *Nancun Chuogenglu* vol. 18, *Sibu Congkan* Yuan ed. |
-| 咸淳临安志（选卷） | *Xianchun Lin'an Zhi* (selected volumes)                         | 潜说友 Qian Shuoyou | S. Song (1268–1274) | *Siku Quanshu*, Qing ed. |
+| 乾道临安志（卷1–2）     | *Qiandao Lin'an Zhi*, vols. 1–2                                  | 周淙 Zhou Chong | S. Song (12th c.) | *Siku Quanshu*, Qing ed. |
+| 二老堂杂志（卷4）       | *Erlaotang Zazhi*, vol. 4                                        | 周必大 Zhou Bida | S. Song (12th–13th c.) | Qing manuscript copy |
+| 六和塔记            | *Record of the Liuhe Pagoda*                                     | 曹勋 Cao Xun | Song (12th c.) | In *Songyinji*, *Siku Quanshu*, Qing ed. |
+| 南渡大小公署考         | *Survey of Official Offices of the Southern Migration*           | Anon.; comp. Chen Menglei (Qing) | Original unknown; Qing compilation | In *Gujin Tushu Jicheng*, *Kaogong Dian*, *Hangzhou Fuzhi* section, Yongzheng 4 (1726) imperial copper movable-type ed. |
+| 南渡行宫记           | *Record of Temporary Imperial Palaces of the Southern Migration* | 陈世崇 Chen Shichong | S. Song (13th c.) | In *Nancun Chuogenglu* vol. 18, *Sibu Congkan* Yuan ed. |
+| 咸淳临安志（选卷）       | *Xianchun Lin'an Zhi* (selected volumes)                         | 潜说友 Qian Shuoyou | S. Song (1268–1274) | *Siku Quanshu*, Qing ed. |
 | 增补武林旧事（卷4,6,7,8） | *Zengbu Wulin Jiushi*, vols. 4, 6, 7, 8                          | 周密 Zhou Mi (orig.); 朱庭焕 Zhu Tinghuan (suppl.) | S. Song (orig.); Ming (suppl.) | *Siku Quanshu*, Qing ed. |
-| 宋行宫考 | *Survey of Song Imperial Palaces*                                | 徐一夔 Xu Yikui | Ming | In *Shifenggao*, *Siku Quanshu*, Qing ed. |
-| 方舆胜览（卷1） | *Fangyu Shenglan*, vol. 1                                        | 祝穆 Zhu Mu | S. Song (c. 1239) | *Siku Quanshu*, Qing ed. |
-| 杭州宋宫考 | *Survey of Song Palaces in Hangzhou*                             | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 杭州宋祀典考 | *Survey of Song Ritual Institutions in Hangzhou*                 | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 杭宋勋臣郎官宅考 | *Survey of Meritorious Ministers' Residences in Song Hangzhou*   | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 杭州宋官署考 | *Survey of Song Government Offices in Hangzhou*                  | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
-| 梦梁录（卷7–16, 19） | *Mengliang Lu*, vols. 7–16, 19                                   | 吴自牧 Wu Zimu | S. Song (c. 1270s) | Qing manuscript copy |
-| 武林旧事（卷4–6） | *Wulin Jiushi*, vols. 4–6                                        | 周密 Zhou Mi | S. Song (c. 1280s–1290s) | *Siku Quanshu*, Qing ed. |
-| 淳祐临安志（卷5–10） | *Chunyou Lin'an Zhi*, vols. 5–10                                 | 施谔 Shi E (orig.); 胡敬 Hu Jing (reconstr.) | S. Song (1241–52); Qing reconstr. | Ding Family Press, Jiahui Hall, 1900 |
-| 西湖老人繁盛录 | *Xihu Laoren Fansheng Lu*                                         | 西湖老人 (anon.) | S. Song (13th c.) | In *Yongle Dadian* vol. 7630, Jiajing copy |
-| 都城纪胜 | *Ducheng Jisheng*                                                | 耐得翁 Naideweng (anon.) | S. Song (c. 1235) | *Siku Quanshu*, Qing ed. |
+| 宋行宫考            | *Survey of Song Imperial Palaces*                                | 徐一夔 Xu Yikui | Ming | In *Shifenggao*, *Siku Quanshu*, Qing ed. |
+| 方舆胜览（卷1）        | *Fangyu Shenglan*, vol. 1                                        | 祝穆 Zhu Mu | S. Song (c. 1239) | *Siku Quanshu*, Qing ed. |
+| 杭州宋宫考           | *Survey of Song Palaces in Hangzhou*                             | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 杭州宋祀典考          | *Survey of Song Ritual Institutions in Hangzhou*                 | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 杭宋勋臣郎官宅考        | *Survey of Meritorious Ministers' Residences in Song Hangzhou*   | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 杭州宋官署考          | *Survey of Song Government Offices in Hangzhou*                  | 郎瑛 Lang Ying | Ming | In *Qixiu Leigao* vol. 2, CADAL digitisation |
+| 梦粱录（卷7–16, 19）  | *Mengliang Lu*, vols. 7–16, 19                                   | 吴自牧 Wu Zimu | S. Song (c. 1270s) | Qing manuscript copy |
+| 武林旧事（卷4–6）      | *Wulin Jiushi*, vols. 4–6                                        | 周密 Zhou Mi | S. Song (c. 1280s–1290s) | *Siku Quanshu*, Qing ed. |
+| 淳祐临安志（卷5–10）    | *Chunyou Lin'an Zhi*, vols. 5–10                                 | 施谔 Shi E (orig.); 胡敬 Hu Jing (reconstr.) | S. Song (1241–52); Qing reconstr. | Ding Family Press, Jiahui Hall, 1900 |
+| 西湖老人繁盛录         | *Xihu Laoren Fansheng Lu*                                         | 西湖老人 (anon.) | S. Song (13th c.) | In *Yongle Dadian* vol. 7630, Jiajing copy |
+| 都城纪胜            | *Ducheng Jisheng*                                                | 耐得翁 Naideweng (anon.) | S. Song (c. 1235) | *Siku Quanshu*, Qing ed. |
 
 S. Song = Southern Song dynasty. CADAL = China Academic Digital Associative Library.
 
@@ -60,9 +60,9 @@ S. Song = Southern Song dynasty. CADAL = China Academic Digital Associative Libr
 
 | Title (Chinese) | Title (English) | Author | Period | Edition |
 |-----------------|-----------------|--------|--------|---------|
-| 舆地纪胜（卷1–2） | *Yuedi Jisheng*, vols. 1–2 | 王象之 Wang Xiangzhi | S. Song (c. 1221) | Late Qing revised ed. (Li Yunting) |
+| 舆地纪胜（卷1–2） | *Yudi Jisheng*, vols. 1–2 | 王象之 Wang Xiangzhi | S. Song (c. 1221) | Late Qing revised ed. (Li Yunting) |
 
-*Yuedi Jisheng* is a large-scale Song-dynasty geographic encyclopedia covering all prefectures of the empire (200+ volumes). Volumes 1–2, which cover Lin'an prefecture, are used as the OOD evaluation set. Although the subject matter overlaps with the IND corpus, this text represents an independent authorial and methodological tradition (empire-wide encyclopaedic compilation rather than locally focused description), producing measurably different distributional properties: mean relation density 2.11 per sentence (vs. 3.77–4.14 in IND splits), mean sentence length 69 characters (vs. 45–52), and 67 sentences with no annotated relations (vs. 0 in IND).
+*Yudi Jisheng* is a large-scale Song-dynasty geographic encyclopedia covering all prefectures of the empire (200+ volumes). Volumes 1–2, which cover Lin'an prefecture, are used as the OOD evaluation set. Although the subject matter overlaps with the IND corpus, this text represents an independent authorial and methodological tradition (empire-wide encyclopaedic compilation rather than locally focused description), producing measurably different distributional properties: mean relation density 2.11 per sentence (vs. 3.77–4.14 in IND splits), mean sentence length 69 characters (vs. 45–52), and 67 sentences with no annotated relations (vs. 0 in IND).
 
 ---
 
@@ -303,6 +303,12 @@ If you use this dataset, please cite both the dataset and the paper.
   note    = {Under review}
 }
 ```
+
+---
+
+## Acknowledgements
+
+The authors gratefully acknowledge **Shidian Guji (识典古籍)**, https://www.shidianguji.com, for providing free and open access to high-quality digitised scans of classical Chinese texts. Shidian Guji has confirmed that the platform does not hold copyright over classical text images and that such images belong to the public domain, permitting their use for OCR, text extraction, correction, segmentation, and annotation without any copyright dispute.
 
 ---
 

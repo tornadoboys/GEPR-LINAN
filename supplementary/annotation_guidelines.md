@@ -39,12 +39,12 @@ GEPR-LINAN is a named entity recognition and relation extraction dataset for geo
 
 ### 2.1 Semi-Automatic Annotation Pipeline
 
-This dataset was produced using the pipeline: "GPT-5 candidate generation → human verification and correction → multi-round iteration → IAA evaluation":
+This dataset was produced using the pipeline: "GPT-5 (OpenAI, accessed November 2025) candidate generation → human verification and correction → multi-round iteration → IAA evaluation":
 
 ```
 Raw sentence
    ↓
-GPT-5 (gpt-5-2025-04-16) generates candidate annotations (joint ERE)
+GPT-5 (OpenAI, accessed November 2025) generates candidate annotations (joint ERE)
    ↓
 Annotator A verifies and corrects
    ↓
@@ -59,7 +59,7 @@ Final dataset release
 
 ### 2.2 Annotation Tools
 
-- **Dataset construction phase**: No dedicated annotation platform was used. GPT-5 (gpt-5-2025-04-16) outputs candidate annotations in JSON format; annotators manually verify and correct entity spans, types, and relation tuples directly in the JSON files.
+- **Dataset construction phase**: No dedicated annotation platform was used. GPT-5 (OpenAI, accessed November 2025) outputs candidate annotations in JSON format; annotators manually verify and correct entity spans, types, and relation tuples directly in the JSON files.
 - **IAA experiment phase**: Annotators independently produce annotations on raw text, outputting JSON files in the same format as the dataset; a script then computes strict span-level F1 for comparison (see Chapter 8).
 - **Format conversion**: Python scripts (for conversion among LLM JSON / PLM json / PLM jsonl formats).
 
@@ -539,11 +539,11 @@ Annotate only relations for which there is explicit linguistic evidence. Example
 
 ---
 
-## Chapter 6　GPT-5 Assisted Annotation Prompts
+## Chapter 6　GPT-5-Assisted Annotation Prompts
 
 ### 6.1 Prompt Structure
 
-The GPT-5 annotation prompt has two layers:
+The GPT-5 (OpenAI, accessed November 2025) annotation prompt has two layers:
 
 - **System Prompt**: Role definition + enumeration of legal types with definitions + format constraints + few-shot examples
 - **User Prompt**: Raw sentence to be annotated
@@ -668,7 +668,7 @@ Entities ner: [["entity1","type1"],["entity2","type2"],...]
 
 | Parameter | Value |
 |-----------|-------|
-| Model | GPT-5 (gpt-5-2025-04-16) |
+| Model | GPT-5 (OpenAI, accessed November 2025) |
 | temperature | 0.3 (ERE) / 0.3 (RE-only) |
 | Output format | Plain JSON; no Markdown code blocks |
 | Batch mode | Sentence by sentence |
@@ -729,7 +729,7 @@ This chapter sets out the operating procedures specific to the Round 4 IAA exper
 | Participants | Annotator A and Annotator B (the same two scholars who performed verification in Rounds 2–3 of the production phase; a senior expert in classical Chinese philology served as adjudicator for disputed cases throughout production and IAA; four scholars participated in total across all phases) |
 | Sampling method | Stratified sampling: covering all **19 text units (18 IND text units from 15 source works, plus 1 OOD text)** and all 6 functional entity categories |
 | Sample size | Approximately 600 sentences (approximately 12% of the full corpus of 4,920 sentences; exact count determined at sampling) |
-| Use of GPT-5 candidates | **No** — neither annotator may view any pre-generated annotations |
+| Use of GPT-5 (OpenAI, accessed November 2025) candidates | **No** — neither annotator may view any pre-generated annotations |
 | Mutual visibility | **No** — neither annotator may view the other's results until both have submitted |
 | Guidelines version | Both annotators use **the final version of these guidelines (v1.0)** |
 | Annotation tool | No dedicated annotation platform; annotators output JSON files directly in the dataset format |

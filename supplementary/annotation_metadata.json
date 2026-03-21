@@ -2,7 +2,7 @@
   "_note": "All statistics in this file are derived directly from the published paper (GEPR-LINAN, Scientific Data submission) and the actual annotation records.",
   "corpus_overview": {
     "total_documents": 19,
-    "total_documents_note": "18 IND text units from 15 source works, plus 1 OOD text (Yuedi Jisheng, vols. 1–2)",
+    "total_documents_note": "18 IND text units from 15 source works, plus 1 OOD text (Yudi Jisheng, vols. 1–2)",
     "total_characters_approx": "~1,000,000",
     "text_genres": [
       "Official histories (正史)",
@@ -165,7 +165,7 @@
       "test": "10%"
     },
     "ood_dataset": {
-      "source": "Yuedi Jisheng 《舆地纪胜》 Volumes 1–2",
+      "source": "Yudi Jisheng 《舆地纪胜》 Volumes 1–2",
       "rationale": "Completely independent from all 18 IND source texts. Compiled by a different author (Wang Xiangzhi 王象之) with a distinct empire-wide encyclopaedic methodology. Higher proportion of long and complex sentences, more complicated sentence logic, and fewer covered relation types than the IND corpus — specifically designed to test model generalisation to unseen text styles."
     },
     "balancing_principle": "During division, adherence to the principle of balancing entities and relations was maintained, ensuring that different subsets are as consistent as possible in their statistical distribution and avoiding unstable evaluation results due to partition bias."

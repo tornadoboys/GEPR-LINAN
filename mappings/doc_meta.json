@@ -371,63 +371,63 @@
     "english_title": "Survey of Song Government Offices in Hangzhou"
   },
   "DOC_0067": {
-    "title": "《梦梁录》卷7",
+    "title": "《梦粱录》卷7",
     "split": "train",
     "sentence_count": 153,
     "para_count": 31,
     "english_title": "Mengliang Lu, vol. 7"
   },
   "DOC_0068": {
-    "title": "《梦梁录》卷8",
+    "title": "《梦粱录》卷8",
     "split": "train",
     "sentence_count": 32,
     "para_count": 7,
     "english_title": "Mengliang Lu, vol. 8"
   },
   "DOC_0069": {
-    "title": "《梦梁录》卷9",
+    "title": "《梦粱录》卷9",
     "split": "train",
     "sentence_count": 48,
     "para_count": 10,
     "english_title": "Mengliang Lu, vol. 9"
   },
   "DOC_0071": {
-    "title": "《梦梁录》卷11",
+    "title": "《梦粱录》卷11",
     "split": "train",
     "sentence_count": 37,
     "para_count": 8,
     "english_title": "Mengliang Lu, vol. 11"
   },
   "DOC_0072": {
-    "title": "《梦梁录》卷12",
+    "title": "《梦粱录》卷12",
     "split": "train",
     "sentence_count": 37,
     "para_count": 8,
     "english_title": "Mengliang Lu, vol. 12"
   },
   "DOC_0073": {
-    "title": "《梦梁录》卷13",
+    "title": "《梦粱录》卷13",
     "split": "train",
     "sentence_count": 11,
     "para_count": 3,
     "english_title": "Mengliang Lu, vol. 13"
   },
   "DOC_0074": {
-    "title": "《梦梁录》卷14",
+    "title": "《梦粱录》卷14",
     "split": "train",
     "sentence_count": 31,
     "para_count": 7,
     "english_title": "Mengliang Lu, vol. 14"
   },
   "DOC_0075": {
-    "title": "《梦梁录》卷15",
+    "title": "《梦粱录》卷15",
     "split": "train",
     "sentence_count": 28,
     "para_count": 6,
     "english_title": "Mengliang Lu, vol. 15"
   },
   "DOC_0077": {
-    "title": "《梦梁录》卷19",
+    "title": "《梦粱录》卷19",
     "split": "train",
     "sentence_count": 12,
     "para_count": 3,
@@ -480,7 +480,7 @@
     "split": "train",
     "sentence_count": 9,
     "para_count": 2,
-    "english_title": "Xihu Laoren Fengsheng Lu"
+    "english_title": "Xihu Laoren Fansheng Lu"
   },
   "DOC_0088": {
     "title": "《都城纪胜》",
@@ -532,7 +532,7 @@
     "english_title": "Survey of Meritorious Ministers' Residences in Song Hangzhou"
   },
   "DOC_0076": {
-    "title": "《梦梁录》卷16",
+    "title": "《梦粱录》卷16",
     "split": "dev",
     "sentence_count": 9,
     "para_count": 2,
@@ -602,7 +602,7 @@
     "english_title": "Xianchun Lin'an Zhi, vol. 38"
   },
   "DOC_0070": {
-    "title": "《梦梁录》卷10",
+    "title": "《梦粱录》卷10",
     "split": "test",
     "sentence_count": 20,
     "para_count": 4,
@@ -620,13 +620,13 @@
     "split": "ood",
     "sentence_count": 259,
     "para_count": 52,
-    "english_title": "Yuedi Jisheng, vol. 1"
+    "english_title": "Yudi Jisheng, vol. 1"
   },
   "DOC_0090": {
     "title": "《舆地纪胜》卷2",
     "split": "ood",
     "sentence_count": 280,
     "para_count": 56,
-    "english_title": "Yuedi Jisheng, vol. 2"
+    "english_title": "Yudi Jisheng, vol. 2"
   }
 }
